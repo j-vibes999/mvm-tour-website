@@ -1,0 +1,91 @@
+/* Motion layer. Everything that moves is described here, so the rest of the CSS stays static.
+   Content is complete and readable without any of it: nothing starts hidden, and
+   prefers-reduced-motion turns the movement off. */
+:root{
+  --dur-quick:180ms;--dur-state:260ms;--dur-slow:700ms;
+  --ease-river:cubic-bezier(.22,.8,.24,1);
+  --ease-soft:cubic-bezier(.16,1,.3,1);
+  --lift-shadow:0 26px 44px -26px rgba(40,30,10,.55);
+}
+
+/* ── Cards answer the pointer: a small lift, a slow photo zoom, a little more detail ── */
+:is(.home-city-card,.home-style-media,.trip-card,.photo-card,.discovery-tile,.pcard,.month-card,.about-shot,.atlas-card-media,.saved-item-photo,.day-card){
+  transition:transform .5s var(--ease-river),box-shadow .5s var(--ease-river),border-color .3s ease;
+}
+:is(.home-city-media,.home-style-media,.trip-card .media,.photo-card-media,.discovery-photo,.pcard-media,.month-card-media,.about-shot) img{
+  transition:transform .9s var(--ease-river),filter .6s ease;
+}
+/* a card's photo reveals its best time to visit on hover, without changing the card's size */
+.photo-card-peek{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:6px 12px;padding:28px 14px 12px;background:linear-gradient(0deg,rgba(32,18,8,.86),rgba(32,18,8,.5) 60%,rgba(32,18,8,0));color:#fff;font-size:13px;line-height:1.5;opacity:0;translate:0 10px;transition:opacity .35s ease,translate .45s var(--ease-river);pointer-events:none}
+.photo-card-peek>span{display:inline-flex;align-items:center;gap:6px;min-width:0}
+.photo-card-peek svg{flex:none;width:15px;height:15px;color:var(--gold-light)}
+.photo-card-go{font-weight:600;color:#ffe3b8}
+.photo-card-go svg{transition:transform .3s var(--ease-river)}
+@media (hover:hover) and (pointer:fine){
+  :is(.home-city-card,.trip-card,.photo-card,.discovery-tile,.month-card):is(:hover,:focus-within){transform:translateY(-6px);box-shadow:var(--lift-shadow);border-color:#d8c9a3}
+  .pcard:is(:hover,:focus-visible){transform:translateY(-6px);box-shadow:0 26px 44px -20px rgba(20,12,4,.6)}
+  .home-style-card:hover .home-style-media{transform:translateY(-4px);box-shadow:var(--lift-shadow)}
+  :is(.home-city-card:hover .home-city-media,.home-style-card:hover .home-style-media,.trip-card:hover .media,.photo-card:hover .photo-card-media,.discovery-tile:hover .discovery-photo,.pcard:hover .pcard-media,.month-card:hover .month-card-media,.about-shot:hover) img{transform:scale(1.06)}
+  .photo-card:is(:hover,:focus-visible) .photo-card-peek{opacity:1;translate:0 0}
+  .photo-card:is(:hover,:focus-visible) .photo-card-go svg{transform:translateX(4px)}
+}
+@media (hover:none),(pointer:coarse){
+  .photo-card-peek{display:none}
+  :is(.home-city-card,.trip-card,.photo-card,.discovery-tile,.month-card,.pcard,.home-style-card):active{transform:scale(.985);transition-duration:.12s}
+}
+
+/* ── Sections settle into place as they scroll in: scroll-linked, never hidden ── */
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion:no-preference){
+    /* movement only: text keeps its full contrast while it rises into place */
+    @keyframes settle{from{translate:0 32px;scale:.98}to{translate:0 0;scale:1}}
+    :is(.section-head,.home-city-grid>*,.home-style-grid>*,.photo-grid>*,.prov-grid>*,.packages-grid>*,.discovery-grid>*,.home-company-notes>div,.approach-list>div,.about-gallery>*,.p-facts-card,.related>h2,.pkg-main .daily-itinerary>li,.atlas,.month-picker,.day-story,.saved-planner>*,.route-strip){
+      animation:settle linear both;animation-timeline:view();animation-range:entry 0% entry 70%;
+    }
+    :is(.home-city-grid,.photo-grid,.packages-grid,.discovery-grid,.prov-grid)>:nth-child(3n+2){animation-range:entry 6% entry 76%}
+    :is(.home-city-grid,.photo-grid,.packages-grid,.discovery-grid,.prov-grid)>:nth-child(3n){animation-range:entry 12% entry 82%}
+    .home-style-grid>:nth-child(2n){animation-range:entry 8% entry 78%}
+    /* the province rail rises with its section, card by card */
+    .places-sec{view-timeline:--rail block}
+    .place-rail>.pcard{animation:settle linear both;animation-timeline:--rail;animation-range:entry calc(var(--i,0) * 5%) entry calc(55% + var(--i,0) * 5%)}
+  }
+}
+
+/* ── Photos sharpen into view on slow connections (their own colour holds the frame first) ── */
+@keyframes photo-focus{from{filter:blur(14px) saturate(1.15);scale:1.04}to{filter:none;scale:1}}
+img.photo-fresh{animation:photo-focus .8s var(--ease-river) both}
+
+/* ── Saving a place: the heart bursts and flies to “Saved” ── */
+.heart-fly{position:fixed;left:0;top:0;z-index:80;width:26px;height:26px;color:var(--saffron);pointer-events:none;will-change:transform}
+.heart-fly svg{display:block;width:100%;height:100%;fill:currentColor;stroke:currentColor}
+.heart-dot{position:fixed;left:0;top:0;z-index:79;width:7px;height:7px;border-radius:50%;pointer-events:none;will-change:transform,opacity}
+
+/* ── Page changes: a short dissolve; a card's photo grows into the next page's hero ── */
+.site-header{view-transition-name:site-header}
+.mobile-bar{view-transition-name:mobile-bar}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.3s;animation-timing-function:ease}
+::view-transition-group(vt-photo){animation-duration:.62s;animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+::view-transition-old(vt-photo),::view-transition-new(vt-photo){width:100%;height:100%;object-fit:cover;overflow:clip}
+::view-transition-group(vt-title){animation-duration:.5s;animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+html.vt-instant .viewer{transition:none}
+
+/* ── Place viewer: the photo settles, then the details arrive in a quick cascade ── */
+.v-slide.is-active .v-info>:nth-child(2){transition-delay:.04s}
+.v-slide.is-active .v-info>:nth-child(3){transition-delay:.08s}
+.v-slide.is-active .v-info>:nth-child(4){transition-delay:.12s}
+.v-slide.is-active .v-info>:nth-child(5){transition-delay:.16s}
+.v-slide.is-active .v-info>:nth-child(6){transition-delay:.2s}
+.v-slide.is-active .v-info>:nth-child(n+7){transition-delay:.24s}
+
+/* ── Counters and small confirmations ── */
+@keyframes count-bump{0%{transform:scale(1)}35%{transform:scale(1.28)}100%{transform:scale(1)}}
+.is-bumping{animation:count-bump .45s cubic-bezier(.3,1.5,.5,1)}
+
+@media (prefers-reduced-motion:reduce){
+  :where(.home-city-card,.home-style-media,.trip-card,.photo-card,.discovery-tile,.pcard,.month-card,.about-shot,.atlas-card-media,.saved-item-photo,.day-card),
+  :where(.home-city-media,.home-style-media,.trip-card .media,.photo-card-media,.discovery-photo,.pcard-media,.month-card-media,.about-shot) img{transition:none!important;transform:none!important}
+  img.photo-fresh,.is-bumping{animation:none!important}
+  .heart-fly,.heart-dot{display:none}
+  .photo-card-peek{transition:none}
+  ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
+}

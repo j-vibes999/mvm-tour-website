@@ -1,0 +1,19 @@
+{
+  "name": "mvm-laos-discovery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve-local.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/ui-kit.js && node --check dist/content.js && node --check dist/home-discovery.js && node --check dist/map-data.js && node --check dist/trip-tools.js && node --check dist/routes.js && node --check dist/media-catalog.js && node --check dist/interactions.js && node --check dist/hero-experience.js && node --check dist/i18n.js && node --check dist/photo-tones.js && node --check dist/locales/all.js && node --check dist/locales/places.js && node --check dist/locales/details.js && node --check dist/locales/programs.js && node --check dist/locales/ui.js && node --check dist/locales/effects.js && node --check dist/atlas.js && node --check dist/search-names.js && node --check dist/discovery.js && node --check dist/travel-copy.js && node --check dist/travel-planning.js && node --check dist/planning-ui.js && node --check dist/viewer-gestures.js && node --check scripts/serve-local.mjs && node --check dist/city-deck.js && node --check dist/city-deck-data.js",
+    "build": "node scripts/build-static.mjs",
+    "deploy": "npm run build && wrangler pages deploy build --project-name lao-travel --branch main",
+    "test:browser": "npm run build && node --test tests/browser/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "playwright": "^1.64.1",
+    "wrangler": "^4.162.0"
+  }
+}

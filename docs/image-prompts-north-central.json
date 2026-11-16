@@ -1,0 +1,34 @@
+[
+  {
+    "key": "nc-ban-na-tower",
+    "placeRef": "bolikhamxay/ban-na-tower",
+    "referenceUrls": [
+      "https://weblogtheworld.com/formats/photos/the-elephant-tower-of-ban-na",
+      "https://www.flickr.com/photos/thenhbushman/4393272529",
+      "https://www.flickr.com/photos/thenhbushman/4393286923"
+    ],
+    "referenceImages": [
+      ".artifacts/images-north-central/tower-reference.jpg",
+      ".artifacts/images-north-central/tower2-reference.jpg"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: travel website illustration, landscape 1536 x 1024, 3:2. Create a new restrained natural photographic-style illustration of the actual elephant observation tower near Ban Na village in Phou Khao Khouay, Bolikhamxay, Laos. The two attached photos are factual architectural references, not edit targets. Preserve the tower's essential real structure: tall weathered turquoise-green concrete posts and horizontal beams supporting a timber refuge/observation deck; a broad simple corrugated dark metal hipped roof with exposed timber rafters; brown horizontal plank siding on the lower part of the observation deck, open viewing windows above, modest square rural utilitarian construction. A simple narrow timber access ladder leads to the upper refuge. View from the forest floor at human height, farther back than the reference, showing the tower among ordinary dry-season mixed tropical forest and a little leaf-covered ground; believable modest scale. Soft hazy daylight, natural muted green and brown, imperfect weathered surfaces, no tourism glamour. Fresh viewpoint and lighting, do not duplicate the reference crop or exact image. Base only physical geometry on the references. No elephants, visitors, people, fantasy architecture, palace, glass skywalk, mountain cliffs, extra floors, rail bridges, signs, readable text, logos or watermark. This is an illustrative reconstruction grounded in real-place photographs, and will be clearly labelled AI-generated.",
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-central/nc-ban-na-tower.png",
+    "generatedOn": "2026-10-20"
+  },
+  {
+    "key": "nc-elephant-festival",
+    "placeRef": "xayaboury/elephant-festival",
+    "referenceUrls": [
+      "https://commons.wikimedia.org/wiki/File:ປາກລາຍ,_ໄຊຍະບູລີ,_Lao_Elephant_Festival_2008,Paklay_District,Sayaboury_-_panoramio.jpg",
+      "https://www.visitsoutheastasia.travel/activity/boun-xang-sayaboury-elephant-festival/"
+    ],
+    "referenceImages": [
+      ".artifacts/images-north-central/festival-reference.jpg"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape travel website illustration, 1536 x 1024, 3:2. Create a new restrained documentary-style illustrative scene of Boun Xang, the Lao Elephant Festival in Xayaboury province, Laos. The attached low-resolution genuine Paklay festival photograph is a factual reference for the modest Asian elephants, Lao ceremony and clothing, not an edit target. Fresh composition: two ordinary Asian elephants calmly standing on a dusty open festival ground in a small Lao town, one a little closer, a saffron-robed Lao Buddhist monk on the ground beside the nearer elephant making a gentle blessing with a small bunch of green leaves, a small number of Lao attendees set back in the middle distance. Simple red woven saddle cloth, one local mahout seated naturally at the shoulder of the farther elephant as visible in the factual reference; no giant howdahs or extravagant ornaments. Believable Asian elephant anatomy, medium grey skin with real folds, small ears, natural trunks and feet, no oversized tusks. Low wooden buildings and sparse tropical trees softly in the background, pale overcast daylight, earthy colors, candid travel composition at human eye height, quiet respectful mood. Show all animals relaxed; no circus poses. Do not reproduce the attached photograph's people, faces or composition. No fantasy creatures, royal palace, Indian-style decorated painted elephants, huge crowds, elephants rearing, multiple trunks, readable text, signage, logos or watermark. This is an AI illustration grounded in real festival references, not an exact documentary photograph.",
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-central/nc-elephant-festival.png",
+    "generatedOn": "2026-10-20"
+  }
+]

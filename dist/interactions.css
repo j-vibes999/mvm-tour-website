@@ -1,0 +1,181 @@
+/* Calm feedback, shared across discovery and trip planning. */
+:root{
+  --motion-press:120ms;
+  --motion-quick:160ms;
+  --motion-state:220ms;
+  --motion-photo:350ms;
+  --motion-ease:cubic-bezier(.16,1,.3,1);
+  --motion-settle:cubic-bezier(.32,.72,0,1);
+  --ease:var(--motion-ease);
+  --field-error:#914831;
+}
+
+html{scrollbar-color:var(--green-2) var(--cream)}
+::selection{background:var(--gold-soft);color:var(--green-dark)}
+:where(a,button,summary){-webkit-tap-highlight-color:rgba(185,144,71,.18)}
+:focus-visible{outline:3px solid var(--gold-text);outline-offset:4px}
+:is(.on-dark,.hero,.site-footer,.viewer) :focus-visible{outline-color:var(--gold-light)}
+:is(.btn,.package-card-cta,.pill,.save-place,.round-btn,.v-close,.menu-btn,.lang-btn,.lang-toggle,.saved-link,.social,.back-to-top){
+  touch-action:manipulation;
+  transition:background-color var(--motion-quick) ease,color var(--motion-quick) ease,border-color var(--motion-quick) ease,opacity var(--motion-quick) ease,transform var(--motion-press) var(--motion-ease);
+}
+:is(.btn,.package-card-cta,.pill,.save-place,.round-btn,.v-close,.menu-btn,.lang-btn,.lang-toggle,.saved-link,.social,.back-to-top):not(:disabled):not([aria-disabled=true]):active{
+  transform:scale(.98);
+  transition-duration:var(--motion-press);
+}
+:is(.btn,.pill,.save-place,.round-btn)[aria-disabled=true]{opacity:.5;cursor:not-allowed}
+:is(.btn,.save-place)[aria-busy=true]{cursor:progress}
+:is(.menu-btn,.lang-btn,.lang-toggle,.saved-link){border-radius:8px}
+.saved-count{font-variant-numeric:tabular-nums}
+.saved-link>svg,.save-place>svg{transition:fill var(--motion-quick) ease,color var(--motion-quick) ease}
+.save-place:is(.is-saved,[aria-pressed=true]){background:#e7eddf;border-color:var(--green);color:var(--green)}
+.save-place:is(.is-saved,[aria-pressed=true])>svg{fill:currentColor}
+.v-quick-actions .save-place:is(.is-saved,[aria-pressed=true]){background:var(--gold-light);border-color:var(--gold-light);color:var(--green-dark)}
+.pill:is([aria-pressed=true],[aria-current=page]){background:var(--green);border-color:var(--green);color:var(--paper)}
+.pill:focus-visible,.v-thumb:focus-visible{border-radius:999px}
+
+/* The underline connects navigation feedback to the current-page marker. */
+.nav-link{position:relative;transition:color var(--motion-quick) ease,border-color var(--motion-quick) ease}
+.nav-link::after{
+  content:'';
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-2px;
+  height:2px;
+  background:var(--gold);
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform var(--motion-state) var(--motion-ease);
+}
+.nav-link:is([aria-current=page],:focus-visible)::after{transform:scaleX(1)}
+.site-header{transition:background-color var(--motion-state) ease,border-color var(--motion-state) ease,box-shadow var(--motion-state) ease}
+.site-header.is-scrolled{
+  background:var(--cream);
+  border-bottom-color:rgba(20,60,45,.16);
+  box-shadow:0 7px 20px -16px rgba(12,44,34,.4);
+}
+html.menu-open .site-header{background:var(--cream)}
+.menu-btn[aria-expanded=true]{background:#e7eddf;color:var(--green-dark)}
+.footer-col a,.text-button,.daily-map-link,.day-stops a,.popular-shortcuts a{
+  text-underline-offset:4px;
+  text-decoration-thickness:1px;
+  transition:color var(--motion-quick) ease,text-decoration-color var(--motion-quick) ease;
+}
+
+/* Card lift, photo zoom and reveal live in motion.css. */
+.link-arrow svg,.prov-card>svg,.pcard-more svg,.card-foot svg,.package-card-cta svg,.pager svg,.round-btn svg{
+  transition:transform var(--motion-state) var(--motion-ease);
+}
+.packages-grid .trip-card-priced .package-card-cta{transition:background-color var(--motion-quick) ease,transform var(--motion-press) var(--motion-ease)}
+.packages-grid .trip-card-priced .package-card-cta:active{transform:scale(.99)}
+
+/* Native field validity is shown after interaction, never on pristine forms. */
+.explore-search :is(input,select),.inquiry-form :is(input,textarea,select),.package-selects select,#inquiry-message{
+  caret-color:var(--green);
+  transition:border-color var(--motion-quick) ease,background-color var(--motion-quick) ease;
+}
+.explore-search :is(input,select):focus-visible,.inquiry-form :is(input,textarea,select):focus-visible,.package-selects select:focus-visible,#inquiry-message:focus-visible{
+  border-color:var(--green);
+  outline:3px solid var(--gold-text);
+  outline-offset:3px;
+}
+.inquiry-form :is(input,textarea,select)[aria-invalid=true],.inquiry-form[data-validated=true] :invalid{border-color:var(--field-error)}
+.form-grid .field-error{color:var(--field-error);font-size:14px;line-height:1.65}
+@supports selector(input:user-invalid){
+  .inquiry-form :is(input,textarea,select):user-invalid{border-color:var(--field-error)}
+  .inquiry-form :is(input,textarea,select):user-invalid:focus-visible{outline-color:var(--field-error)}
+  .inquiry-form :is(input,textarea,select)[required]:user-valid{border-color:#638164}
+}
+.daily-itinerary details>summary>svg,.pkg-disclosure>summary>svg,.place-more>summary>svg{
+  transition:transform var(--motion-quick) var(--motion-ease),rotate var(--motion-quick) var(--motion-ease);
+}
+.daily-itinerary details>summary,.pkg-disclosure>summary,.place-more>summary,.faq-item>summary{
+  transition:color var(--motion-quick) ease;
+}
+#search-results-title,#province-browser{scroll-margin-top:calc(var(--header) + 24px)}
+.faq-item>.detail-content{margin-left:20px;padding-bottom:24px}
+.faq-item>.detail-content>p{max-width:72ch;margin:0;font-size:16px;line-height:1.85;color:var(--text)}
+
+/* The viewer fades in; its photo drift and detail reveal are in motion.css. */
+.viewer{transition:opacity var(--motion-state) var(--motion-ease);overscroll-behavior:contain}
+.v-thumb{transition:background-color var(--motion-quick) ease,border-color var(--motion-quick) ease,color var(--motion-quick) ease}
+.v-thumb[aria-current=true]{background:rgba(253,251,246,.14);border-color:var(--gold-light);color:var(--paper)}
+.viewer .round-btn:disabled{opacity:.35}
+.toast{
+  transform:translate(-50%,6px);
+  transition:opacity var(--motion-quick) ease,transform var(--motion-state) var(--motion-ease);
+  bottom:calc(24px + env(safe-area-inset-bottom,0px));
+}
+.toast.visible{transform:translate(-50%,0)}
+
+/* Reading orientation is quiet and never competes with the place viewer. */
+.journey-progress{position:fixed;inset:0 0 auto;z-index:49;height:2px;pointer-events:none}
+.journey-progress-fill{display:block;width:100%;height:100%;background:var(--gold);transform:scaleX(0);transform-origin:left center}
+.back-to-top{
+  position:fixed;
+  right:24px;
+  bottom:28px;
+  z-index:44;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  padding:0;
+  border:1px solid var(--line-2);
+  border-radius:50%;
+  background:var(--paper);
+  color:var(--green);
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(6px);
+  transition:opacity var(--motion-quick) ease,transform var(--motion-state) var(--motion-ease),background-color var(--motion-quick) ease,border-color var(--motion-quick) ease;
+}
+.back-to-top.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+.back-to-top>svg{width:19px;height:19px}
+.back-to-top:focus-visible{border-radius:50%}
+html.viewer-open :is(.journey-progress,.back-to-top),html.menu-open .back-to-top{display:none}
+
+@media (hover:hover) and (pointer:fine){
+  .nav-link:hover::after{transform:scaleX(1)}
+  :is(.menu-btn,.lang-btn,.lang-toggle,.saved-link):hover{background:#ebe8dc}
+  .prov-card:hover>svg,.link-arrow:hover svg,.pcard:hover .pcard-more svg,.card-foot>a:hover svg,.package-card-cta:hover svg,.pager-next:hover svg{transform:translateX(3px)}
+  .pager-prev:hover svg{transform:translateX(-3px)}
+  .rail-arrows .round-btn:first-child:hover:not(:disabled) svg,.v-arrows .round-btn:first-child:hover:not(:disabled) svg{transform:translateX(-2px)}
+  .rail-arrows .round-btn:last-child:hover:not(:disabled) svg,.v-arrows .round-btn:last-child:hover:not(:disabled) svg{transform:translateX(2px)}
+  .back-to-top:hover{background:#ebe8dc;border-color:var(--green)}
+  .footer-col a:hover{text-decoration:underline}
+}
+
+@media(max-width:980px){
+  body{padding-bottom:calc(78px + env(safe-area-inset-bottom,0px))}
+  .mobile-nav{transform-origin:top center;border-bottom:1px solid var(--line);box-shadow:0 14px 24px -18px rgba(12,44,34,.35)}
+  .mobile-nav .nav-link::after{bottom:-1px;height:1px}
+  .mobile-nav:is(.opening,.closing){isolation:isolate}
+  .back-to-top{right:16px;bottom:calc(94px + env(safe-area-inset-bottom,0px))}
+  .toast{left:calc(50% - 24px);bottom:calc(94px + env(safe-area-inset-bottom,0px));max-width:calc(100vw - 88px)}
+}
+
+/* Touch keeps its press response without inheriting a lingering hover. */
+@media (hover:none),(pointer:coarse){
+  .prov-card:hover>svg,.link-arrow:hover svg,.pcard:hover .pcard-more svg{transform:none}
+  .save-place:hover:not(.is-saved):not([aria-pressed=true]){background:transparent;border-color:var(--line-2)}
+  .v-quick-actions .save-place:hover:not(.is-saved):not([aria-pressed=true]){background:transparent;border-color:rgba(253,251,246,.35)}
+  .packages-grid .trip-card-priced .package-card-cta:hover{background:var(--green)}
+}
+
+/* Keyboard navigation is immediate; focus and selected states remain visible. */
+html[data-input=keyboard] :is(.btn,.package-card-cta,.pill,.save-place,.round-btn,.v-close,.menu-btn,.lang-btn,.lang-toggle,.saved-link,.social,.back-to-top),
+html[data-input=keyboard] .nav-link::after{transition:none!important}
+html[data-input=keyboard] :is(.btn,.package-card-cta,.pill,.save-place,.round-btn,.v-close,.menu-btn,.lang-btn,.lang-toggle,.saved-link,.social,.back-to-top):active{transform:none!important}
+
+@media(prefers-reduced-motion:reduce){
+  .pcard{animation:none!important;transform:none!important;translate:none!important}
+  .prov-card:hover>svg,.link-arrow:hover svg,.pcard:hover .pcard-more svg,.card-foot>a:hover svg,.package-card-cta:hover svg,.pager a:hover svg,.round-btn:hover svg,
+  :is(.btn,.package-card-cta,.pill,.save-place,.round-btn,.v-close,.menu-btn,.lang-btn,.lang-toggle,.saved-link,.social,.back-to-top):active{transform:none!important}
+  .back-to-top,.back-to-top.is-visible{transform:none}
+  .toast,.toast.visible{transform:translate(-50%,0)}
+  .v-media>img,.v-slide.is-active .v-media>img{transform:none!important;animation:none!important}
+  .v-slide .v-info,.v-slide .v-info>*{opacity:1!important;translate:none!important}
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "key": "north-a-ban-komen-tea",
+    "placeRef": "phongsaly/ban-komen-tea",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 3:2 travel website illustration, 1536 by 1024 pixels. Create one beautiful but restrained natural realistic illustration of the ancient tea tree grove at Ban Komaen (Ban Komen), Phongsaly, northern Laos. Input image is a geographic and botanical reference photograph only, not an edit target: show the same real type of modest tea trees, pale grey gnarled forked trunks with lichen and small glossy green tea leaves, growing irregularly on a grassy mountain slope; rounded densely forested green hill behind. Compose a different quiet eye-level view along a small earthen footpath through several tea trees. No people needed. Natural overcast highland daylight, authentic slightly humid atmosphere, soft greens and earth tones, realistic bark and small tea leaves. Preserve the real location's ordinary scale and vegetation, no vast manicured horizontal tea terraces. No dramatic mountain peaks, no ancient giant fantasy trees, no temple, no pavilion, no structures, no lettering, logos, watermark, or cinematic color grading. This is a grounded AI illustration, not a documentary photo. Verified references: https://www.helvetas.org/en/laos/who-we-are/follow-us/multimedia-stories/laos-tea-tree and https://phongsalytourism.org/wp-content/uploads/2021/03/Map-2020-Size-60x80-cm.pdf",
+    "referenceUrls": [
+      "https://www.helvetas.org/en/laos/who-we-are/follow-us/multimedia-stories/laos-tea-tree",
+      "https://phongsalytourism.org/wp-content/uploads/2021/03/Map-2020-Size-60x80-cm.pdf"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-a/north-a-ban-komen-tea.png"
+  },
+  {
+    "key": "north-a-ethnic-museum",
+    "placeRef": "phongsaly/ethnic-museum",
+    "prompt": "Use case: photorealistic-natural. Asset type: 3:2 landscape travel website illustration, 1536x1024. Create a restrained, natural realistic illustration of the Phongsaly Museum of Ethnic Groups interior based on the provided real-place reference image. Reference is for room geometry and display type; do not copy the tour guide or any people. Show the small modest museum gallery: pale cream walls, a high rectangular rear window with light white curtains, reddish brown ceramic floor tiles with subtle circular cream patterns, four simple mannequins displaying actual northern Laos ethnic garments on a low wood plinth. Garments are mostly dark indigo and black with modest woven red panels, textile headdresses and restrained silver ornaments; reproduce the clothing forms visible in the reference, without invented ornate fantasy costume. One low inclined museum information stand can be seen from an angle but all writing must be outside the frame or too small to read, no readable text. Eye level wide scene from a different position across the room, clear gentle window daylight, plain educational setting, realistic material texture. No real people, no new architecture, no grand museum hall, no exoticizing ceremony, no excessive decorations, no watermark, logos or text. This is an AI illustration based on the real small museum, not a documentary photograph. Real-place references: https://phongsalytourism.org/wp-content/uploads/2021/03/Map-2020-Size-60x80-cm.pdf and https://sonasia-holiday.com/laos-travel/phongsaly",
+    "referenceUrls": [
+      "https://phongsalytourism.org/wp-content/uploads/2021/03/Map-2020-Size-60x80-cm.pdf",
+      "https://sonasia-holiday.com/laos-travel/phongsaly"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-a/north-a-ethnic-museum.png"
+  },
+  {
+    "key": "north-a-chom-ong",
+    "placeRef": "oudomxay/chom-ong",
+    "prompt": "Use case: photorealistic-natural. Asset type: 3:2 wide travel website illustration, 1536x1024. Create a beautiful restrained natural realistic illustration inside Chom Ong Cave, Oudomxay, northern Laos, grounded in the supplied real-place reference photograph. Keep the actual cave characteristics: an irregular roomy limestone passage with rough warm brown and gray rock walls, a high naturally sculpted ceiling, large fallen boulders on the dirt floor beside a narrow concrete visitor path with simple pale-gray metal handrails on both sides. Path recedes gently into a darker chamber, earthy uneven rock ledges and restrained local neutral-white electric illumination exposing the rock textures. Compose a different eye-level view slightly farther along the path. Keep the real modest path width and plausible cavern scale; natural darkness in recesses, realistic camera exposure and color. No people needed. No fantasy giant crystal formations, no colored neon lighting, no stalactite forests, no spectacular skylights or sunbeams, no waterfalls or invented river, no vegetation indoors, no text, logo or watermark. This is an AI illustration based on verified cave appearance, not an exact documentary photograph. References: https://discoverlaos.today/oudomxay/thing-to-do/chom-ong-cave and https://www.tourismlaos.org/northern-provinces/oudomxay-province/",
+    "referenceUrls": [
+      "https://discoverlaos.today/oudomxay/thing-to-do/chom-ong-cave",
+      "https://www.tourismlaos.org/northern-provinces/oudomxay-province/"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-a/north-a-chom-ong.png"
+  },
+  {
+    "key": "north-a-nam-dee",
+    "placeRef": "luang-namtha/nam-dee",
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape travel website illustration, wide 3:2 1536x1024. Create one beautiful, natural realistic illustration of Nam Dee waterfall near Ban Nam Dee, Luang Namtha, northern Laos. The supplied photograph is a reference for the real rock geometry and modest scale, not an edit target: a small roughly six-meter-high sloping grey rock face with a broader modest cascade on the left and a thinner channel to the right, a few small rooted shrubs growing on the upper rock, green bamboo and tropical vegetation enclosing the sides. At the base is a shallow stony stream with irregular dark rocks and a low stacked-stone retaining edge as visible in the reference. Compose a quiet natural view from the stream at a slightly different angle, waterfall centered mid-distance, a few wet rocks in foreground, no people. Keep normal moderate water flow with visible detailed rock surface, realistic tiny splashes and clear shallow brown-green water, ordinary overcast daylight and believable greens. Do not enlarge this into a towering waterfall, do not add many tiers, turquoise lagoon, cliff valley, exotic flowers, suspension bridge or invented pavilion. No people, text, logos or watermark. This is a location-grounded AI illustration, not documentary photography. Real references: https://discoverlaos.today/luang-namtha-1/thing-to-do/nam-dee-waterfall-2 and https://ecotourism-laos.org/0b2ea75c/pdf/ecotourism-laos/the-4-hour-house.pdf",
+    "referenceUrls": [
+      "https://discoverlaos.today/luang-namtha-1/thing-to-do/nam-dee-waterfall-2",
+      "https://ecotourism-laos.org/0b2ea75c/pdf/ecotourism-laos/the-4-hour-house.pdf"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-a/north-a-nam-dee.png"
+  },
+  {
+    "key": "north-a-gibbon-experience",
+    "placeRef": "bokeo/gibbon-experience",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 3:2 travel website illustration, 1536x1024. Create a restrained, beautiful, natural realistic illustration of the Gibbon Experience treehouse in Nam Kan National Park, Bokeo, northern Laos, grounded in the supplied official reference photograph. The reference is for the actual compact architecture and forest scale: one small round open-sided wooden treehouse platform with simple vertical wooden railings and a low warm tan thatched roof wrapped around the trunk of a real branching rainforest tree, timber supports underneath, dense broadleaf green canopy around and behind. Compose a different middle-distance view from a neighboring canopy-level position, treehouse filling less than one third of the frame so the forest remains the main setting. A single subtle taut zipline cable may approach the platform. Natural gently overcast morning light, slight humid haze between the distant trees, realistic foliage textures and normal greens. Treehouse must look sturdy, modest and handmade, with no luxury glass walls. No wildlife, no gibbons posed beside the house, no people, no fantasy bridges, no extra treehouses, no dramatic mountain drop or giant cloud ocean, no exaggerated trunk or impossible architecture, no text, logo or watermark. This is an AI illustration based on real official Gibbon Experience imagery, not a claimed photograph. References: https://www.gibbonexperience.org/ and the official site's Treetop Architecture section.",
+    "referenceUrls": [
+      "https://www.gibbonexperience.org/",
+      "https://www.gibbonexperience.org/treetop-architecture/"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-a/north-a-gibbon-experience.png"
+  },
+  {
+    "key": "north-a-nam-kat",
+    "placeRef": "oudomxay/nam-kat",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 3:2 travel website illustration, 1536x1024. Create one restrained, beautiful natural realistic illustration of Nam Kat waterfall at Nam Kat Yorla Pa, Oudomxay, northern Laos, grounded in the supplied actual-location reference photograph. Preserve the waterfall's real form: one narrow white cascade descending over a dark gray slanted layered rock face with small horizontal ledges, a smaller upper channel briefly visible through the foliage, dense shaded broadleaf rainforest and vines closely enclosing the waterfall on both sides, a small shallow natural green-brown pool at its foot and irregular rocks in the foreground. Compose from a slightly different eye-level view near the stream, with the waterfall small enough to show the surrounding forest, no people. Keep the cascade's plausible modest height and water volume and clear underlying rock texture; fine spray, realistic damp moss, soft ordinary daylight filtering through canopy, naturally varied greens. No enormous cliff, no sweeping horseshoe waterfall, no turquoise resort lagoon, no added multi-tiered terraced cascades, no sky bridges or buildings, no wildlife, no dramatic sunbeams or fantasy mist. No text, logo, watermark. This is an AI illustration based on actual place references, not a documentary photo. References: https://discoverlaos.today/tour/trekking-sky-bridges-waterfall-at-nam-kat-yorla-pa and https://www.tourismlaos.org/northern-provinces/oudomxay-province/ and https://namkatyorlapa.com/experience/",
+    "referenceUrls": [
+      "https://discoverlaos.today/tour/trekking-sky-bridges-waterfall-at-nam-kat-yorla-pa",
+      "https://www.tourismlaos.org/northern-provinces/oudomxay-province/",
+      "https://namkatyorlapa.com/experience/"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north-a/north-a-nam-kat.png"
+  }
+]

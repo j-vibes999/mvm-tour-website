@@ -1,0 +1,10 @@
+node_modules/
+.artifacts/
+*.tar.gz
+.DS_Store
+
+build/
+_backup*/
+_to_delete/
+.openai/
+

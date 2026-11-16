@@ -1,0 +1,62 @@
+[
+  {
+    "ref": "attapeu/samakkhixay-market",
+    "key": "south-finish-samakkhixay-market",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+      "https://attapeutourism.wordpress.com/cultural-tourist-site/"
+    ],
+    "kind": "generated",
+    "reason": "Targeted exact-place Commons and web searches did not find a verified commercially reusable photograph. Do not confuse the similarly named market in Savannakhet.",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 1536x1024 travel website image, 3:2 landscape. Real location: Samakkhixay morning market in Attapeu town, southern Laos. Create an honest, restrained AI atmosphere illustration informed by Tourism Laos's description of the town's traditional early morning marketplace and local produce and basketry. It will be visibly labeled AI illustration, not documentary evidence or an exact reconstruction. Scene: human-eye-level close-medium wide view along a simple shaded open-sided provincial market aisle, worn cement floor, plain wooden tables with fresh leafy greens, herbs, modest bunches of bananas, eggplants and a few woven bamboo baskets. Two adult Lao vendors in ordinary everyday modern clothes quietly arrange produce in the middle distance; relaxed natural postures. Soft early morning daylight enters from one open side, background stalls in gentle shade. Beautiful through truthful texture and quiet composition, natural muted colors and ordinary small scale. Keep framing inside the produce aisle so there is no invented recognizable market facade. No ceremonial costumes, no stereotypes, no exotic animals, no signs or readable text, no watermark, no logos, no excessive saturated color, no fantasy, no dramatic cinematic haze.",
+    "description": "AI atmosphere illustration of a traditional early morning produce market in Samakkhixay, Attapeu, informed by local tourism descriptions."
+  },
+  {
+    "ref": "sekong/tad-hua-khon",
+    "key": "south-finish-tad-hua-khon",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+      "https://www.tourismlaos.org/southern-provinces/xekong-province/",
+      "https://www.travelfish.org/sight_profile/laos/southern_laos/sekong/sekong/3922"
+    ],
+    "referenceImageUrls": [
+      "https://www.tourismlaos.org/wp-content/uploads/2025/03/tad-huakhon-scaled-1-845x684.webp"
+    ],
+    "kind": "generated",
+    "reason": "Targeted exact-place and alternate-name Commons/web searches found no verified commercially reusable photograph; official tourism photograph was visually inspected for real terrain and proportions.",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 1536x1024 landscape travel website image, 3:2. Create an accurate naturalistic AI illustration grounded in Tad Hua Khon (Tad Se Noy / Tad Houa Khon), on the Xe Namnoy River near Sekong and Attapeu, southern Laos. It will be visibly labeled AI illustration. Real-place reference, visually verified: a broad ordinary river crossing a single low dark rock ledge about 7 metres high and roughly 100 metres wide, long nearly horizontal white water curtain, uneven bands of black rock between flows, broad blue-gray river pool in foreground, low mixed deciduous tropical forest and reeds immediately behind the top ledge. The landscape is flat river valley, not a mountainous gorge. Compose from the rocky bank at water level, waterfall extending across midframe at a slight angle and receding right, calm rippled foreground taking lower half, true-to-life broadleaf forest behind, a little ordinary pale blue sky. Believable dry-season water volume and modest physical height, no enormous waterfall, no stacked cascades. Natural clear morning daylight, real greens, subdued blue-gray water, rich rock and leaf textures, balanced editorial photography aesthetic. No saturated turquoise, no fantasy cliffs or peaks, no aerial drone view, no buildings, no people, no text or watermark.",
+    "description": "AI illustration of the low broad river ledge at Tad Hua Khon / Tad Se Noy, grounded in official tourism photographs and descriptions."
+  },
+  {
+    "ref": "attapeu/tad-saepha",
+    "key": "south-finish-tad-saepha",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+      "https://www.ecotourismlaos.com/index_php/attapeu"
+    ],
+    "referenceImageUrls": [
+      "https://www.tourismlaos.org/wp-content/uploads/2025/03/tad-saepha-scaled-1-845x684.webp"
+    ],
+    "kind": "generated",
+    "reason": "Targeted Commons and exact/alternate-name web searches found no verified commercially reusable photograph. An official tourism photograph was visually inspected to constrain the broad curved rock lip, brown-gray water, and forested valley.",
+    "description": "AI illustration of the broad curved rocky drop of Tad Saepha on the Xe Pian River, grounded in official tourism references.",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 1536x1024 travel website illustration, 3:2 landscape. Create a naturalistic restrained AI illustration of the real Tad Saepha / Tat Sae Pha waterfall on the Xe Pian River, Attapeu Province, southern Laos. It will be visibly labeled AI illustration, not a documentary photograph. Real terrain verified in the official tourism photo: broad continuous horseshoe-shaped low river cliff, roughly 20-23 metres high and 120 metres wide; a flat reddish brown horizontal bedrock shelf above; off-white, lightly sediment-tinted water pours across the wide curved edge in irregular separate curtains; scattered angular dark boulders at the base and textured churning beige-gray water; a low rounded forested hill beyond the opposite bank. Composition from a safe rocky riverside viewpoint at slightly raised human level, medium-wide view showing a credible broad single drop and riverbed, the curving lip running diagonally away from near left toward right, ordinary tropical broadleaf forest across the upper background. Soft bright daylight through thin cloud, natural muted greens and warm stone, detailed believable water physics. Attractive through quiet realism, not dramatic scale. No enormous vertical canyon, no towering cliffs or mountain peaks, no multiple stacked cascades, no turquoise pool, no fantasy, no HDR or oversaturation, no visitor structures, no people, no text, logos or watermark."
+  },
+  {
+    "ref": "sekong/kandone",
+    "key": "south-finish-kandone",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/xekong-province/",
+      "https://champameuanglao.com/the-katu-of-southern-laos/",
+      "https://www.taeclaos.org/featured_item/katu/"
+    ],
+    "referenceImageUrls": [
+      "https://champameuanglao.com/wp-content/uploads/2017/07/katu-1024x682.jpg",
+      "https://champameuanglao.com/wp-content/uploads/2017/06/katu2-1024x545.jpg"
+    ],
+    "kind": "generated",
+    "reason": "Exact-place Commons and targeted web searches did not find a commercially reusable photo. The Lao Airlines magazine exterior and interior photographs of Kandone's actual communal house were visually inspected; their photographs are references only.",
+    "description": "AI illustration informed by Kandone's Katu communal house, with a broad thatched roof and modest raised wooden platform.",
+    "prompt": "Use case: photorealistic-natural. Asset type: travel website image, wide 1536x1024, 3:2 landscape. Create a restrained, believable AI illustration informed by the actual Katu communal house, called a rong, in Ban Kandone village, Sekong Province, southern Laos. Visibly labeled as AI illustration on website, not documentary photography. Real-place geometry from the Lao Airlines magazine photographs: an ordinary low raised wooden square platform on chunky rough timber posts; broad pyramidal hipped thatch roof, rounded straw texture, roof eaves much wider than the platform and peak only moderately high; open sides and dark wooden rails, simple wooden steps at the front. Modest carved geometric details along the rails and some timber posts, not elaborate temple ornament. A few slender tall pale bamboo ceremonial poles stand in the reddish earth yard around it, with understated dry plant decorations. The communal house is only a single-storey village building, roughly 8 metres across, and stands among simple timber-and-bamboo homes, several with weathered corrugated metal roofs, green broadleaf trees and a coconut palm. Human-eye-level gently off-center three-quarter view with a little shady foliage at the edge, house in midground, generous red earth foreground, soft ordinary late-morning light, quiet lived-in village atmosphere, natural colors and rich real straw and wood textures. No people staged in ceremonial costumes, no buffalo sacrifice, no skull display, no invented mythological statues, no dramatic pointed Vietnamese skyscraper roof, no fantasy architecture, no grandeur, no text or signs, no watermark, no logos, no oversaturated color or cinematic haze."
+  }
+]

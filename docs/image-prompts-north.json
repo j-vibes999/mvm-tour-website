@@ -1,0 +1,14 @@
+[
+  {
+    "key": "north-phou-fa",
+    "placeRef": "phongsaly/phou-fa",
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape travel website illustration, wide 3:2. Create one restrained, documentary-style AI illustration of the view from Phou Fa Hill above Phongsaly, northern Laos, based on the actual reference town geography. Reference image shows the real Phongsaly old quarter; preserve the low clustered grey tiled and rusty metal roofs on a rounded green mountain ridge, with gentle layered forested ridges in the distance. Camera looking down from a wooded hillside overlook, a little natural foliage in foreground, town small in middle distance. Soft clear morning daylight, faint valley haze, natural muted green and earthy color, believable northern Laos terrain, realistic modest scale. Do not add dramatic cliffs, alpine peaks, temples, golden stupas, waterfalls, fantasy structures, balloons, dramatic sun rays, huge fog oceans, text, logos or people. The image is an illustrative interpretation of the verified viewpoint, not a claimed documentary photograph. Reference pages: https://discoverlaos.today/phongsaly/thing-to-do/phou-fa-mountain and https://www.tourismlaos.org/northern-provinces/phongsali-province/",
+    "referenceUrls": [
+      "https://discoverlaos.today/phongsaly/thing-to-do/phou-fa-mountain",
+      "https://www.tourismlaos.org/northern-provinces/phongsali-province/",
+      "https://commons.wikimedia.org/wiki/File:Phongsali_002.jpg"
+    ],
+    "tool": "built-in image_gen",
+    "sourceOriginal": ".artifacts/images-north/north-phou-fa.png"
+  }
+]

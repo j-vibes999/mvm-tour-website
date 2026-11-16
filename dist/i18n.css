@@ -1,0 +1,35 @@
+/* Local Lao glyphs keep vowel marks together without depending on a third-party request. */
+@font-face{font-family:'Noto Sans Lao';font-style:normal;font-weight:400 700;font-display:swap;src:url('assets/fonts/noto-sans-lao-400.woff2') format('woff2');unicode-range:U+0E81-0EDF,U+200C-200D,U+25CC}
+html:lang(lo){--sans:'Noto Sans Lao','Noto Sans Thai',system-ui,sans-serif;--serif:'Noto Serif Lao','Noto Sans Lao',serif}
+html:lang(lo) body{line-height:1.85}
+html:lang(lo) h1,html:lang(lo) h2,html:lang(lo) h3{line-height:1.55;letter-spacing:0}
+html:lang(lo) .hero h1{line-height:1.35;max-width:none;text-wrap:nowrap;white-space:nowrap}
+@media(max-width:960px){
+  html:lang(lo) .hero h1{font-size:clamp(32px,5vw,46px)}
+}
+html:lang(zh){--sans:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',system-ui,sans-serif;--serif:'Songti SC','Noto Serif CJK SC',SimSun,serif}
+html:lang(zh) body{line-height:1.85;line-break:strict}
+html:lang(zh) h1,html:lang(zh) h2,html:lang(zh) h3{line-height:1.45;letter-spacing:0;word-break:normal}
+/* Lao and Chinese navigation labels need more room: between 981 and 1240px they use the menu button.
+   Thai and English keep the full navigation (see the compact header rules in features.css). */
+@media(min-width:981px) and (max-width:1240px){
+  html:is(:lang(lo),:lang(zh)) :is(.desktop-nav,.header-actions .btn){display:none}
+  html:is(:lang(lo),:lang(zh)) .menu-btn{display:flex}
+  html:is(:lang(lo),:lang(zh)) .mobile-nav{position:absolute;top:100%;left:0;right:0;display:flex;flex-direction:column;gap:4px;max-height:calc(100dvh - var(--header) - 24px);overflow-y:auto;overscroll-behavior:contain;padding:16px var(--gutter) 24px;background:var(--cream);border-top:1px solid var(--line);box-shadow:0 16px 24px rgba(16,42,25,.1)}
+  html:is(:lang(lo),:lang(zh)) .mobile-nav>*{flex-shrink:0}
+  html:is(:lang(lo),:lang(zh)) .mobile-nav .nav-link{font-size:17px;min-height:48px;border-bottom:1px solid var(--line)}
+  html:is(:lang(lo),:lang(zh)) .mobile-nav .btn{margin-top:14px}
+}
+@media(max-width:640px){
+  .header-inner{gap:8px}
+  .header-actions{gap:4px}
+  html:lang(lo) .hero h1{font-size:clamp(22px,6.5vw,36px);line-height:1.35;max-width:none;text-wrap:nowrap;white-space:nowrap}
+  html:lang(zh) .hero h1{font-size:clamp(38px,10.5vw,52px)}
+  html:lang(lo) .home-city-copy h3{font-size:18px}
+  html:lang(lo) .home-style-copy h3{font-size:17px}
+}
+@media(max-width:400px){
+  .header-inner{padding-inline:12px;gap:4px}
+  .header-actions{gap:0}
+  html:lang(lo) .hero h1{font-size:clamp(19px,6vw,24px)}
+}

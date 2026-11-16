@@ -1,0 +1,45 @@
+[
+  {
+    "ref": "salavan/phou-xieng-thong",
+    "key": "root-phou-xieng-thong",
+    "kind": "generated",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/salavan-province/",
+      "https://www.ecotourismlaos.com/directory/publications/kong_mountain.pdf"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset: one wide 3:2 landscape travel website illustration, 1536 by 1024. Create a restrained, beautiful naturalistic illustration of the landscape of Phou Xieng Thong National Protected Area in western Salavan, southern Laos. Grounding: this real protected area lies beside the Mekong and includes dry evergreen and mixed deciduous tropical forest, modest wooded rocky hills and the Mekong valley; the official Salavan tourism page and ecotourism park brochure are the geographic references. Frame a believable human-scale overlook from an ordinary forest hillside, with weathered sandstone foreground at one corner, uneven green tropical canopy on low rounded hills and a quiet glimpse of the broad muted Mekong plain in the far distance. Soft warm morning daylight and light humid haze; subtle natural greens, real leaf and rock textures; inviting but understated documentary-photography appearance. Keep terrain modest, no dramatic limestone towers, no giant peaks, no snow, no invented temple, no resort, no waterfall, no visible rare animals. No people, no text, no logos, no watermark. This will be explicitly labelled as an AI illustration based on the real location, never as an on-location photograph. Produce one coherent landscape image, not a collage."
+  },
+  {
+    "ref": "salavan/bolaven-villages",
+    "key": "root-bolaven-villages",
+    "kind": "generated",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/salavan-province/",
+      "https://www.tourismlaos.org/champasak-coffee-tourism-springs-back-to-life-in-southern-laos/"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset: one wide 3:2 editorial travel website illustration, 1536 by 1024. Depict the ordinary coffee-growing village landscape of the Bolaven Plateau in Salavan, southern Laos. Grounding from official Lao tourism: villages such as Houay Houn are nestled in coffee plantations, with smallholder coffee farming, simple houses on stilts, timber construction and hand weaving; Salavan coffee villages are reached on local country roads. This is an atmosphere illustration of the real regional destination category, not an invented named landmark or an exact facade reconstruction. Frame a quiet eye-level view along a narrow reddish earth village lane, healthy glossy coffee bushes in the foreground and midground, a few modest weathered timber houses raised on short stilts under practical corrugated roofs partly visible among trees, cool green plateau vegetation and gentle distant hills. Soft early morning daylight, light natural haze, realistic leaf detail and lived-in materials, peaceful and beautiful but not polished resort luxury. No exaggerated mountains, no giant terraces, no fantasy huts, no staged ethnic costumes, no ceremonial objects, no visible people, no animals, no text or logos or watermark. Natural documentary-photography appearance. It will be visibly labelled AI illustration based on real-place references. Make one coherent landscape, not a collage."
+  },
+  {
+    "ref": "savannakhet/heuan-hin",
+    "key": "root-heuan-hin",
+    "kind": "generated",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/central-provinces/savannakhet-province/",
+      "https://www.flickr.com/photos/explorelaos/49453414837"
+    ],
+    "prompt": "Use case: photorealistic-natural. Create one wide 3:2 travel website illustration, 1536 by 1024, of the actual Heuan Hin (Stone House) ruin in Savannakhet, Laos. Use the supplied reference strictly to ground the modest real ruin's materials, low stepped platform, rectangular doorway and window openings, and partly collapsed roofless block walls. Compose a new slightly oblique eye-level view with more leafy forest at one side; do not copy the photograph's composition. The ruin is a small, human-scale dark grey-brown sandstone/laterite structure, with a short central stair, weathered chunky blocks, moss and small plants in some joints, fallen stones and ordinary grass nearby, tropical trees behind. Quiet soft late-morning daylight, gently warm stone tones and natural green foliage. Beautiful restrained documentary-photography appearance, believable material detail and age. Preserve the roofless ruined state; no giant monument, no Angkor towers, no invented intact roof, no gold, no fantasy architecture, no dramatic sky, no people, no added text, logos or watermark. This is an AI illustration based on the real place and will be visibly labelled as such. One coherent image, not a collage."
+  },
+  {
+    "ref": "attapeu/saysettha-stupa",
+    "key": "root-saysettha-stupa",
+    "kind": "generated",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+      "https://discoverlaos.today/attapeu-province/thing-to-do/xaysettha-stupa"
+    ],
+    "prompt": "Use case: photorealistic-natural. Create one wide 3:2 travel website illustration, 1536 by 1024, grounded in the real Wat That Xaiyasetha / Saysettha Stupa temple in Attapeu, Laos. Use the provided actual reference to ground the aged grey masonry stupa: modest human-scale, square stepped plinth, weathered tapering grey body, narrow pointed finial, dark patina and moss, ordinary active temple courtyard, yellow metal protective fencing nearby. Compose a new closer detail view of the grey stupa from a gentle side angle, with part of the actual style of red-tiled, gold-trimmed Lao temple roof softly out of focus behind and a little grass and leafy trees around the courtyard. Keep the shape and modest scale grounded in the reference; avoid reconstructing an invented full temple complex. Soft lightly overcast natural daylight, realistic aged masonry, calm subtle greens and red roof accents, beautiful but restrained documentary-photography appearance. No imaginary golden stupa, no huge monuments or invented spires, no dramatic fantasy sky, no people, no flags or writing in the framing, no added text, no logos or watermark. This is an AI illustration grounded in real-place references and will be clearly labelled as such. One coherent landscape image, not a collage.",
+    "editPrompts": [
+      "Edit this AI-generated illustration of Saysettha Stupa. Remove the faint white letter-like marks at the very bottom center edge in the grass, and restore uninterrupted natural grass texture there. No lettering, signatures, logo or watermark anywhere in the finished image. Preserve all other composition, geometry, aged grey stupa, yellow fence, red and gold temple roof, foliage, realistic subtle daylight, and 3:2 landscape framing exactly. This is a cleanup of an AI-generated image, not a documentary photograph. Make no other changes."
+    ]
+  }
+]

@@ -1,0 +1,1660 @@
+{
+  "updated": "2026-10-20",
+  "scope": "All destinations in dist/content.js; generated illustrations are labelled in the website.",
+  "total": 86,
+  "photographedDestinations": 63,
+  "illustratedDestinations": 23,
+  "missing": [],
+  "catalogImages": 88,
+  "optimizedFiles": 249,
+  "optimizedBytes": 34270056,
+  "places": [
+    {
+      "ref": "phongsaly/phou-fa",
+      "province": "ผ้งสาลี",
+      "name": "ภูฟ้า",
+      "key": "north-phou-fa",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://discoverlaos.today/phongsaly/thing-to-do/phou-fa-mountain",
+        "https://www.tourismlaos.org/northern-provinces/phongsali-province/",
+        "https://commons.wikimedia.org/wiki/File:Phongsali_002.jpg"
+      ],
+      "src": "assets/images/places-north/north-phou-fa-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "phongsaly/phongsaly-old-quarter",
+      "province": "ผ้งสาลี",
+      "name": "ย่านเมืองเก่าผ้งสาลี",
+      "key": "north-phongsaly-old-quarter",
+      "kind": "photo",
+      "author": "Christian Pirkl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Phongsali_002.jpg"
+      ],
+      "src": "assets/images/places-north/north-phongsaly-old-quarter-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "phongsaly/ethnic-museum",
+      "province": "ผ้งสาลี",
+      "name": "พิพิธภัณฑ์ชนเผ่า",
+      "key": "north-a-ethnic-museum",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://phongsalytourism.org/wp-content/uploads/2021/03/Map-2020-Size-60x80-cm.pdf",
+        "https://sonasia-holiday.com/laos-travel/phongsaly"
+      ],
+      "src": "assets/images/places-north-a/north-a-ethnic-museum-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "phongsaly/ban-komen-tea",
+      "province": "ผ้งสาลี",
+      "name": "ต้นชาโบราณบ้านโกแมน",
+      "key": "north-a-ban-komen-tea",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.helvetas.org/en/laos/who-we-are/follow-us/multimedia-stories/laos-tea-tree",
+        "https://phongsalytourism.org/wp-content/uploads/2021/03/Map-2020-Size-60x80-cm.pdf"
+      ],
+      "src": "assets/images/places-north-a/north-a-ban-komen-tea-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "luang-namtha/nam-ha",
+      "province": "หลวงน้ำทา",
+      "name": "ป่าสงวนแห่งชาติน้ำฮา",
+      "key": "nam-ha-forest",
+      "kind": "photo",
+      "author": "Rds26",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Forest_Nam_Ha_NPA_Laos.jpg"
+      ],
+      "src": "assets/images/photos/nam-ha-forest-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-namtha/muang-sing",
+      "province": "หลวงน้ำทา",
+      "name": "เมืองสิง",
+      "key": "muang-sing-town",
+      "kind": "photo",
+      "author": "Matt Honan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Muang_Sing,_Laos12.jpg"
+      ],
+      "src": "assets/images/photos/muang-sing-town-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-namtha/nam-dee",
+      "province": "หลวงน้ำทา",
+      "name": "น้ำตกน้ำดี",
+      "key": "north-a-nam-dee",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://discoverlaos.today/luang-namtha-1/thing-to-do/nam-dee-waterfall-2",
+        "https://ecotourism-laos.org/0b2ea75c/pdf/ecotourism-laos/the-4-hour-house.pdf"
+      ],
+      "src": "assets/images/places-north-a/north-a-nam-dee-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "luang-namtha/namtha-night-market",
+      "province": "หลวงน้ำทา",
+      "name": "ตลาดกลางคืนหลวงน้ำทา",
+      "key": "north-a-namtha-night-market",
+      "kind": "photo",
+      "author": "Brian Dell (Bdell555)",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luang_NamTha_night_market.JPG#Licensing",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Luang_NamTha_night_market.JPG"
+      ],
+      "src": "assets/images/places-north-a/north-a-namtha-night-market-898.webp",
+      "widths": [
+        480,
+        898
+      ]
+    },
+    {
+      "ref": "oudomxay/phou-that",
+      "province": "อุดมไซ",
+      "name": "พระธาตุภูธาตุ",
+      "key": "north-a-phou-that",
+      "kind": "photo",
+      "author": "Elyasaf Frieman",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Phuuthat_Stupa_at_full_moon.JPG#Licensing",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Phuuthat_Stupa_at_full_moon.JPG"
+      ],
+      "src": "assets/images/places-north-a/north-a-phou-that-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "oudomxay/chom-ong",
+      "province": "อุดมไซ",
+      "name": "ถ้ำจอมออง",
+      "key": "north-a-chom-ong",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://discoverlaos.today/oudomxay/thing-to-do/chom-ong-cave",
+        "https://www.tourismlaos.org/northern-provinces/oudomxay-province/"
+      ],
+      "src": "assets/images/places-north-a/north-a-chom-ong-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "oudomxay/nam-kat",
+      "province": "อุดมไซ",
+      "name": "น้ำตกน้ำกาด",
+      "key": "north-a-nam-kat",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://discoverlaos.today/tour/trekking-sky-bridges-waterfall-at-nam-kat-yorla-pa",
+        "https://www.tourismlaos.org/northern-provinces/oudomxay-province/",
+        "https://namkatyorlapa.com/experience/"
+      ],
+      "src": "assets/images/places-north-a/north-a-nam-kat-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "oudomxay/pakbeng",
+      "province": "อุดมไซ",
+      "name": "ปากแบ่ง",
+      "key": "slow-boat",
+      "kind": "photo",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:20171110_slow_boat_dock_in_Pak_Beng_Laos_0633_DxO.jpg"
+      ],
+      "src": "assets/images/photos/slow-boat-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "bokeo/gibbon-experience",
+      "province": "บ่อแก้ว",
+      "name": "เดอะ กิบบอน เอ็กซ์พีเรียนซ์",
+      "key": "north-a-gibbon-experience",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.gibbonexperience.org/",
+        "https://www.gibbonexperience.org/treetop-architecture/"
+      ],
+      "src": "assets/images/places-north-a/north-a-gibbon-experience-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "bokeo/slow-boat",
+      "province": "บ่อแก้ว",
+      "name": "เรือช้าล่องแม่น้ำโขง",
+      "key": "slow-boat",
+      "kind": "photo",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:20171110_slow_boat_dock_in_Pak_Beng_Laos_0633_DxO.jpg"
+      ],
+      "src": "assets/images/photos/slow-boat-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "bokeo/wat-jom-khao",
+      "province": "บ่อแก้ว",
+      "name": "วัดจอมเขามณีรัตน์",
+      "key": "nc-wat-jom-khao",
+      "kind": "photo",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:20171108_Wat_Jom_Khao_Manilat_0359_DxO.jpg"
+      ],
+      "src": "assets/images/places-north-central/nc-wat-jom-khao-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "bokeo/fort-carnot",
+      "province": "บ่อแก้ว",
+      "name": "ป้อมการ์โนต์",
+      "key": "fort-carnot",
+      "kind": "photo",
+      "author": "Gonzo Gooner",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:French_colonial_fort_at_Huay_Xai_-_panoramio.jpg"
+      ],
+      "src": "assets/images/photos/fort-carnot-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/wat-xieng-thong",
+      "province": "หลวงพระบาง",
+      "name": "วัดเชียงทอง",
+      "key": "wat-xieng-thong",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Temple_Wat_Xieng_Thong_-_Luang_Prabang_-_Laos.jpg"
+      ],
+      "src": "assets/images/photos/wat-xieng-thong-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/royal-palace",
+      "province": "หลวงพระบาง",
+      "name": "พระราชวังหลวงพระบาง",
+      "key": "royal-palace",
+      "kind": "photo",
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Luang-Prabang_Laos_Wat-Haw-Pha-Bang-01.jpg"
+      ],
+      "src": "assets/images/photos/royal-palace-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/alms-giving",
+      "province": "หลวงพระบาง",
+      "name": "ตักบาตรข้าวเหนียว",
+      "key": "alms-giving",
+      "kind": "photo",
+      "author": "Benh LIEU SONG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Luang_Prabang_Monks_Alm_Dawn_02.jpg"
+      ],
+      "src": "assets/images/photos/alms-giving-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/phousi",
+      "province": "หลวงพระบาง",
+      "name": "พูสี",
+      "key": "phousi",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Mountains_Mekong_river_and_dwellings_seen_from_Mount_Phou_Si_at_dusk_in_Luang_Prabang_Laos.jpg"
+      ],
+      "src": "assets/images/photos/phousi-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/night-market",
+      "province": "หลวงพระบาง",
+      "name": "ตลาดกลางคืนหลวงพระบาง",
+      "key": "lp-night-market",
+      "kind": "photo",
+      "author": "Ekrem Canli",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Luang_Prabang_Night_Market_2016(3).jpg"
+      ],
+      "src": "assets/images/photos/lp-night-market-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/kuang-si",
+      "province": "หลวงพระบาง",
+      "name": "น้ำตกตาดกวางสี",
+      "key": "kuang-si",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_and_a_turquoise_water_pool_in_Luang_Prabang_province_Laos.jpg"
+      ],
+      "src": "assets/images/photos/kuang-si-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/pak-ou",
+      "province": "หลวงพระบาง",
+      "name": "ถ้ำติ่ง",
+      "key": "pak-ou",
+      "kind": "photo",
+      "author": "xiquinhosilva",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Pak_Ou_Caves_-_statues.jpg"
+      ],
+      "src": "assets/images/photos/pak-ou-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/nong-khiaw",
+      "province": "หลวงพระบาง",
+      "name": "หนองเขียว",
+      "key": "nong-khiaw",
+      "kind": "photo",
+      "author": "Ekrem Canli",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Nong_Khiaw_pano(1).jpg"
+      ],
+      "src": "assets/images/photos/nong-khiaw-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "luang-prabang/muang-ngoi",
+      "province": "หลวงพระบาง",
+      "name": "เมืองงอย",
+      "key": "muang-ngoi",
+      "kind": "photo",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Muang_Ngoi_Neua_from_the_Phanoi_Viewpoint.jpg"
+      ],
+      "src": "assets/images/photos/muang-ngoi-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "houaphanh/vieng-xai",
+      "province": "หัวพัน",
+      "name": "ถ้ำเวียงไซ",
+      "key": "vieng-xai-cave",
+      "kind": "photo",
+      "author": "Christopher Voitus",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Vieng_Xai-Mr._Souphanouvong_Cave.JPG"
+      ],
+      "src": "assets/images/photos/vieng-xai-cave-960.webp",
+      "widths": [
+        480,
+        960,
+        1024
+      ]
+    },
+    {
+      "ref": "houaphanh/nam-nern-safari",
+      "province": "หัวพัน",
+      "name": "ซาฟารีกลางคืนน้ำเนิน",
+      "key": "north-nam-nern-safari",
+      "kind": "photo",
+      "author": "Nam Et Phou-Louey manager",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:NamNernNightSafari_Laos_leaping_sambar.jpg"
+      ],
+      "src": "assets/images/places-north/north-nam-nern-safari-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "houaphanh/hintang",
+      "province": "หัวพัน",
+      "name": "อุทยานหินตั้ง",
+      "key": "nc-hintang",
+      "kind": "photo",
+      "author": "Matthew Summerton",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Mysterious_Standing_Stones_of_Hintang_-_panoramio.jpg"
+      ],
+      "src": "assets/images/places-north-central/nc-hintang-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "houaphanh/tad-saleuy",
+      "province": "หัวพัน",
+      "name": "น้ำตกตาดสะเลย",
+      "key": "nc-tad-saleuy",
+      "kind": "photo",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Waterfall_On_The_Road_Between_Phonsavanh_And_Xam_Neua_(4308433259).jpg"
+      ],
+      "src": "assets/images/places-north-central/nc-tad-saleuy-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "houaphanh/tai-daeng-weaving",
+      "province": "หัวพัน",
+      "name": "ผ้าทอไทแดง",
+      "key": "nc-tai-daeng-weaving",
+      "kind": "photo",
+      "author": "Peter4940",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Sinxay_Textile.jpg"
+      ],
+      "src": "assets/images/places-north-central/nc-tai-daeng-weaving-549.webp",
+      "widths": [
+        480,
+        549
+      ]
+    },
+    {
+      "ref": "xayaboury/ecc",
+      "province": "ไซยะบูลี",
+      "name": "ศูนย์อนุรักษ์ช้าง",
+      "key": "sayaboury-elephants",
+      "kind": "photo",
+      "author": "Fabien BASTIDE",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Baby_elephants_at_the_Elephant_Conservation_Center_(Laos).jpg"
+      ],
+      "src": "assets/images/photos/sayaboury-elephants-960.webp",
+      "widths": [
+        480,
+        960,
+        1200
+      ]
+    },
+    {
+      "ref": "xayaboury/elephant-festival",
+      "province": "ไซยะบูลี",
+      "name": "เทศกาลช้าง",
+      "key": "nc-elephant-festival",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:ປາກລາຍ,_ໄຊຍະບູລີ,_Lao_Elephant_Festival_2008,Paklay_District,Sayaboury_-_panoramio.jpg",
+        "https://www.visitsoutheastasia.travel/activity/boun-xang-sayaboury-elephant-festival/"
+      ],
+      "src": "assets/images/places-north-central/nc-elephant-festival-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "xayaboury/wat-simungkhun",
+      "province": "ไซยะบูลี",
+      "name": "วัดศรีมุงคุน",
+      "key": "central-wat-simungkhun",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.cestyapamatky.cz/cesty/laos-2008/hongsa",
+        "https://www.lonelyplanet.com/points-of-interest/wat-simungkhun/1433510"
+      ],
+      "src": "assets/images/places-central/central-wat-simungkhun-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "xiengkhouang/plain-of-jars",
+      "province": "เชียงขวาง",
+      "name": "ทุ่งไหหิน",
+      "key": "plain-of-jars",
+      "kind": "photo",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:20171115_Plain_of_Jars_Laos_2540_DxO.jpg"
+      ],
+      "src": "assets/images/photos/plain-of-jars-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "xiengkhouang/muang-khoun",
+      "province": "เชียงขวาง",
+      "name": "เมืองคูน",
+      "key": "muang-khoun-temple",
+      "kind": "photo",
+      "author": "Torbenbrinker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:MuangKhounWatPhiaWat.jpg"
+      ],
+      "src": "assets/images/photos/muang-khoun-temple-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "xiengkhouang/tham-piu",
+      "province": "เชียงขวาง",
+      "name": "ถ้ำปิว",
+      "key": "central-tham-piu",
+      "kind": "photo",
+      "author": "Gonzo Gooner",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Tham_Piu_-_panoramio.jpg"
+      ],
+      "src": "assets/images/places-central/central-tham-piu-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "xiengkhouang/uxo-centre",
+      "province": "เชียงขวาง",
+      "name": "ศูนย์ข้อมูลระเบิดตกค้าง (MAG)",
+      "key": "nc-uxo-centre",
+      "kind": "photo",
+      "author": "James Antrobus",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrls": [
+        "https://www.flickr.com/photos/96862558@N03/13104042303"
+      ],
+      "src": "assets/images/places-north-central/nc-uxo-centre-960.webp",
+      "widths": [
+        480,
+        960,
+        1024
+      ]
+    },
+    {
+      "ref": "xaisomboun/phou-hualone",
+      "province": "ไซสมบูน",
+      "name": "ภูหัวโล้น",
+      "key": "central-phou-hualone",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://asianews.network/xaysomboun-an-ideal-place-for-a-winter-excursion/",
+        "https://hupkao.com/p/phubia/"
+      ],
+      "src": "assets/images/places-central/central-phou-hualone-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "xaisomboun/chao-anouvong-cave",
+      "province": "ไซสมบูน",
+      "name": "ถ้ำเจ้าอนุวงศ์",
+      "key": "anouvong-cave",
+      "kind": "photo",
+      "author": "NruasPaoYPP",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Tchao_Anouvong_Cave,_Xaisomboun_province,_Laos.jpg"
+      ],
+      "src": "assets/images/photos/anouvong-cave-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "xaisomboun/san-phou-mok",
+      "province": "ไซสมบูน",
+      "name": "สันภูหมอก",
+      "key": "central-san-phou-mok",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://asianews.network/xaysomboun-an-ideal-place-for-a-winter-excursion/",
+        "https://www.youtube.com/watch?v=4Cv7vMMn_08"
+      ],
+      "src": "assets/images/places-central/central-san-phou-mok-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "xaisomboun/phou-bia",
+      "province": "ไซสมบูน",
+      "name": "ภูเบี้ย",
+      "key": "central-phou-bia",
+      "kind": "photo",
+      "author": "Boroli",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Phou_Bia_seen_from_Xaysomboun.jpg"
+      ],
+      "src": "assets/images/places-central/central-phou-bia-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-capital/that-luang",
+      "province": "นครหลวงเวียงจันทน์",
+      "name": "พระธาตุหลวง",
+      "key": "that-luang",
+      "kind": "photo",
+      "author": "Phillip Maiwald (Nikopol)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Pha_That_Luang_-_Vientiane_(Laos)_I.jpg"
+      ],
+      "src": "assets/images/photos/that-luang-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-capital/patuxai",
+      "province": "นครหลวงเวียงจันทน์",
+      "name": "ประตูชัย",
+      "key": "patuxai",
+      "kind": "photo",
+      "author": "Kenichiro Yamada.V",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Patuxai1.jpg"
+      ],
+      "src": "assets/images/photos/patuxai-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-capital/wat-si-saket",
+      "province": "นครหลวงเวียงจันทน์",
+      "name": "วัดสีสะเกด",
+      "key": "wat-si-saket",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Wat_Si_Saket_in_its_paved_courtyard_Vientiane_Laos.jpg"
+      ],
+      "src": "assets/images/photos/wat-si-saket-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-capital/buddha-park",
+      "province": "นครหลวงเวียงจันทน์",
+      "name": "สวนพระ เซียงควน",
+      "key": "buddha-park",
+      "kind": "photo",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:20171118_Park_Buddy_w_Wientianie_3090_DxO.jpg"
+      ],
+      "src": "assets/images/photos/buddha-park-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-capital/mekong-night-market",
+      "province": "นครหลวงเวียงจันทน์",
+      "name": "ตลาดกลางคืนริมโขง",
+      "key": "mekong-night-market",
+      "kind": "photo",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Vientiane_Night_Market_1.jpg"
+      ],
+      "src": "assets/images/photos/mekong-night-market-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-province/vang-vieng",
+      "province": "แขวงเวียงจันทน์",
+      "name": "วังเวียง",
+      "key": "vang-vieng",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Water_reflection_of_karst_mountains_at_golden_hour_in_Vang_Vieng_Laos_(panoramic).jpg"
+      ],
+      "src": "assets/images/photos/vang-vieng-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-province/nam-xay",
+      "province": "แขวงเวียงจันทน์",
+      "name": "จุดชมวิวน้ำไซ",
+      "key": "nam-xay",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Karst_peaks_mist_and_colorful_clouds_at_sunrise_seen_from_Mount_Nam_Xay_in_Vang_Vieng_Laos.jpg"
+      ],
+      "src": "assets/images/photos/nam-xay-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-province/blue-lagoon",
+      "province": "แขวงเวียงจันทน์",
+      "name": "บลูลากูน",
+      "key": "blue-lagoon",
+      "kind": "photo",
+      "author": "Gonzo Gooner",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Blue_Lagoon_at_Vang_Vieng_-_panoramio.jpg"
+      ],
+      "src": "assets/images/photos/blue-lagoon-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-province/tham-chang",
+      "province": "แขวงเวียงจันทน์",
+      "name": "ถ้ำจัง",
+      "key": "point-tham-chang",
+      "kind": "photo",
+      "author": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:VientianeProvince_VangVieng_ThamJang4_tango7174.jpg"
+      ],
+      "src": "assets/images/photos/point-tham-chang-800.webp",
+      "widths": [
+        480,
+        800
+      ]
+    },
+    {
+      "ref": "vientiane-province/nam-song",
+      "province": "แขวงเวียงจันทน์",
+      "name": "ล่องแม่น้ำซอง",
+      "key": "nam-song",
+      "kind": "photo",
+      "author": "James Shannon",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Nam_song_river_vang_vieng.jpg"
+      ],
+      "src": "assets/images/photos/nam-song-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-province/balloon",
+      "province": "แขวงเวียงจันทน์",
+      "name": "บอลลูนวังเวียง",
+      "key": "balloon",
+      "kind": "photo",
+      "author": "Visions of Domino",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Vang_Vieng_-_Hot_Air_Balloon_(23871064013).jpg"
+      ],
+      "src": "assets/images/photos/balloon-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "vientiane-province/nam-ngum",
+      "province": "แขวงเวียงจันทน์",
+      "name": "อ่างเก็บน้ำน้ำงึม",
+      "key": "nam-ngum-lake",
+      "kind": "photo",
+      "author": "Chaoborus",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Nam_Ngum_Lake.JPG"
+      ],
+      "src": "assets/images/photos/nam-ngum-lake-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "bolikhamxay/phou-khao-khouay",
+      "province": "บอลิคำไซ",
+      "name": "ป่าสงวนภูเขาควาย",
+      "key": "central-phou-khao-khouay",
+      "kind": "photo",
+      "author": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Bolikhamsai_TadLeuk1_tango7174.jpg"
+      ],
+      "src": "assets/images/places-central/central-phou-khao-khouay-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "bolikhamxay/ban-na-tower",
+      "province": "บอลิคำไซ",
+      "name": "หอดูช้างบ้านนา",
+      "key": "nc-ban-na-tower",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://weblogtheworld.com/formats/photos/the-elephant-tower-of-ban-na",
+        "https://www.flickr.com/photos/thenhbushman/4393272529",
+        "https://www.flickr.com/photos/thenhbushman/4393286923"
+      ],
+      "src": "assets/images/places-north-central/nc-ban-na-tower-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "bolikhamxay/nam-kading",
+      "province": "บอลิคำไซ",
+      "name": "แม่น้ำกะดิ่ง",
+      "key": "nam-kading-river",
+      "kind": "photo",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Kading_River,_Bolikhamsai_Province.jpg"
+      ],
+      "src": "assets/images/photos/nam-kading-river-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "bolikhamxay/wat-phabath",
+      "province": "บอลิคำไซ",
+      "name": "วัดพระบาทโพนสัน",
+      "key": "central-wat-phabath",
+      "kind": "photo",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Wat_Phabat_Phonsane%2C_Bolikhamsai_Province.jpg"
+      ],
+      "src": "assets/images/places-central/central-wat-phabath-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "khammouane/kong-lor",
+      "province": "คำม่วน",
+      "name": "ถ้ำกองลอ",
+      "key": "kong-lor",
+      "kind": "photo",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:20171120_Wlot_jaskini_Kong_Lor_w_Laosie_3663_DxO.jpg"
+      ],
+      "src": "assets/images/photos/kong-lor-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "khammouane/thakhek-loop",
+      "province": "คำม่วน",
+      "name": "เส้นทางวนลูปท่าแขก",
+      "key": "nc-thakhek-loop",
+      "kind": "photo",
+      "author": "Adriaan Castermans",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:03_Thakhek_route_16_to_caves_-_panoramio.jpg"
+      ],
+      "src": "assets/images/places-north-central/nc-thakhek-loop-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "khammouane/that-sikhottabong",
+      "province": "คำม่วน",
+      "name": "พระธาตุศรีโคตรบอง",
+      "key": "central-that-sikhottabong",
+      "kind": "photo",
+      "author": "Torbenbrinker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:4.10.114.Sikhottabong7.jpg"
+      ],
+      "src": "assets/images/places-central/central-that-sikhottabong-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "khammouane/tham-pha-fa",
+      "province": "คำม่วน",
+      "name": "ถ้ำพระ (ถ้ำผาฟ้า)",
+      "key": "central-tham-pha-fa",
+      "kind": "photo",
+      "author": "Nomad Tales",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Buddha_cave%2C_Laos.jpg"
+      ],
+      "src": "assets/images/places-central/central-tham-pha-fa-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "khammouane/kong-leng",
+      "province": "คำม่วน",
+      "name": "ขุนกองแลง",
+      "key": "central-kong-leng",
+      "kind": "photo",
+      "author": "Aleksey Gnilenkov",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Khoun_Kong_Leng_Lake_%286974984671%29.jpg"
+      ],
+      "src": "assets/images/places-central/central-kong-leng-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "savannakhet/savannakhet-old-town",
+      "province": "สะหวันนะเขต",
+      "name": "ย่านเมืองเก่าสะหวันนะเขต",
+      "key": "savannakhet-town",
+      "kind": "photo",
+      "author": "BrotherJohn",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Savannakhet2.JPG"
+      ],
+      "src": "assets/images/photos/savannakhet-town-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "savannakhet/that-ing-hang",
+      "province": "สะหวันนะเขต",
+      "name": "พระธาตุอิงฮัง",
+      "key": "point-that-ing-hang",
+      "kind": "photo",
+      "author": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Savannakhet_ThatIngHang2_tango7174.jpg"
+      ],
+      "src": "assets/images/photos/point-that-ing-hang-800.webp",
+      "widths": [
+        480,
+        800
+      ]
+    },
+    {
+      "ref": "savannakhet/dinosaur-museum",
+      "province": "สะหวันนะเขต",
+      "name": "พิพิธภัณฑ์ไดโนเสาร์",
+      "key": "south-dinosaur-museum",
+      "kind": "photo",
+      "author": "Chaoborus",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:DinoSV2.jpg"
+      ],
+      "src": "assets/images/places-south/south-dinosaur-museum-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "savannakhet/dong-natad",
+      "province": "สะหวันนะเขต",
+      "name": "ดงนาทาด",
+      "key": "south-dong-natad",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/central-provinces/savannakhet-province/",
+        "https://www.ecotourismlaos.com/index_php/eco-attractions/trekking-2/savannakhet/159-dong-na-tad-forest-treks-home-stays"
+      ],
+      "src": "assets/images/places-south/south-dong-natad-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "savannakhet/heuan-hin",
+      "province": "สะหวันนะเขต",
+      "name": "เฮือนหิน",
+      "key": "root-heuan-hin",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/central-provinces/savannakhet-province/",
+        "https://www.flickr.com/photos/explorelaos/49453414837"
+      ],
+      "src": "assets/images/places-root/root-heuan-hin-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "salavan/tad-lo",
+      "province": "สาละวัน",
+      "name": "น้ำตกตาดเลาะ",
+      "key": "tad-lo-falls",
+      "kind": "photo",
+      "author": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Salavan_TadLo3_tango7174.jpg"
+      ],
+      "src": "assets/images/photos/tad-lo-falls-840.webp",
+      "widths": [
+        480,
+        840
+      ]
+    },
+    {
+      "ref": "salavan/phou-xieng-thong",
+      "province": "สาละวัน",
+      "name": "ป่าสงวนภูเชียงทอง",
+      "key": "root-phou-xieng-thong",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/salavan-province/",
+        "https://www.ecotourismlaos.com/directory/publications/kong_mountain.pdf"
+      ],
+      "src": "assets/images/places-root/root-phou-xieng-thong-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "salavan/bolaven-villages",
+      "province": "สาละวัน",
+      "name": "หมู่บ้านชนเผ่าบนที่ราบสูง",
+      "key": "root-bolaven-villages",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/salavan-province/",
+        "https://www.tourismlaos.org/champasak-coffee-tourism-springs-back-to-life-in-southern-laos/"
+      ],
+      "src": "assets/images/places-root/root-bolaven-villages-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "sekong/tad-faek",
+      "province": "เซกอง",
+      "name": "น้ำตกตาดแฟก",
+      "key": "tad-faek-falls",
+      "kind": "photo",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Tad_Feak_falls.jpg"
+      ],
+      "src": "assets/images/photos/tad-faek-falls-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "sekong/tad-hua-khon",
+      "province": "เซกอง",
+      "name": "น้ำตกตาดหัวคน",
+      "key": "south-finish-tad-hua-khon",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+        "https://www.tourismlaos.org/southern-provinces/xekong-province/",
+        "https://www.travelfish.org/sight_profile/laos/southern_laos/sekong/sekong/3922"
+      ],
+      "src": "assets/images/places-south-completion/south-finish-tad-hua-khon-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "sekong/sekong-river",
+      "province": "เซกอง",
+      "name": "ล่องแม่น้ำเซกอง",
+      "key": "sekong-river",
+      "kind": "photo",
+      "author": "AusAid/Jim Holmes",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Landscape_of_boats_on_the_Sekong_River_which_passes_through_southern_Laos_before_it%E2%80%99s_confluence_with_the_Mekong_River._Sekong,_Lao_PDR,_2009._Photo-_Jim_Holmes_(10707735814).jpg"
+      ],
+      "src": "assets/images/photos/sekong-river-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "sekong/xe-xap",
+      "province": "เซกอง",
+      "name": "ป่าสงวนเซซับ",
+      "key": "south-xe-xap",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.ecotourismlaos.com/xexap",
+        "https://www.tourismlaos.org/southern-provinces/xekong-province/"
+      ],
+      "src": "assets/images/places-south/south-xe-xap-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "sekong/kandone",
+      "province": "เซกอง",
+      "name": "บ้านกันดอน",
+      "key": "south-finish-kandone",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/xekong-province/",
+        "https://champameuanglao.com/the-katu-of-southern-laos/",
+        "https://www.taeclaos.org/featured_item/katu/"
+      ],
+      "src": "assets/images/places-south-completion/south-finish-kandone-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "champasak/vat-phou",
+      "province": "จำปาสัก",
+      "name": "ปราสาทวัดพู",
+      "key": "vat-phou",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Twisted_Plumeria_tree_trunk_overgrowing_the_steep_stone_stairs_of_Wat_Phou_temple%2C_Champasak%2C_Laos.jpg"
+      ],
+      "src": "assets/images/photos/vat-phou-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "champasak/si-phan-don",
+      "province": "จำปาสัก",
+      "name": "สี่พันดอน",
+      "key": "si-phan-don",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Pirogue_running_on_the_Mekong_at_sunset_with_pink_clouds_in_Don_Det_Laos.jpg"
+      ],
+      "src": "assets/images/photos/si-phan-don-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "champasak/khone-phapheng",
+      "province": "จำปาสัก",
+      "name": "น้ำตกคอนพะเพ็ง",
+      "key": "khone-phapheng",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Khone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg"
+      ],
+      "src": "assets/images/photos/khone-phapheng-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "champasak/li-phi",
+      "province": "จำปาสัก",
+      "name": "น้ำตกหลี่ผี",
+      "key": "li-phi",
+      "kind": "photo",
+      "author": "Basile Morin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Li_Phi_falls_at_sunrise_with_colorful_clouds_in_Don_Khon_Laos.jpg"
+      ],
+      "src": "assets/images/photos/li-phi-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "champasak/tad-fane",
+      "province": "จำปาสัก",
+      "name": "น้ำตกตาดฟาน",
+      "key": "tad-fane",
+      "kind": "photo",
+      "author": "Supanut Arunoprayote",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Tad_Fane_Waterfall_20251228_(II).jpg"
+      ],
+      "src": "assets/images/photos/tad-fane-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "champasak/paksong-coffee",
+      "province": "จำปาสัก",
+      "name": "ไร่กาแฟปากซอง",
+      "key": "paksong-coffee",
+      "kind": "photo",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Coffee_plantations_Bolaven_Plateau_04.jpg"
+      ],
+      "src": "assets/images/photos/paksong-coffee-960.webp",
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    },
+    {
+      "ref": "attapeu/nong-fa",
+      "province": "อัตตะปือ",
+      "name": "ทะเลสาบหนองฟ้า",
+      "key": "south-nong-fa",
+      "kind": "photo",
+      "author": "Aleksey Gnilenkov",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrls": [
+        "https://commons.wikimedia.org/wiki/File:Nong_Fa_Lake.jpg"
+      ],
+      "src": "assets/images/places-south/south-nong-fa-960.webp",
+      "widths": [
+        480,
+        960
+      ]
+    },
+    {
+      "ref": "attapeu/tad-saepha",
+      "province": "อัตตะปือ",
+      "name": "น้ำตกตาดแสผา",
+      "key": "south-finish-tad-saepha",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+        "https://www.ecotourismlaos.com/index_php/attapeu"
+      ],
+      "src": "assets/images/places-south-completion/south-finish-tad-saepha-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "attapeu/saysettha-stupa",
+      "province": "อัตตะปือ",
+      "name": "พระธาตุไซเชษฐา",
+      "key": "root-saysettha-stupa",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+        "https://discoverlaos.today/attapeu-province/thing-to-do/xaysettha-stupa"
+      ],
+      "src": "assets/images/places-root/root-saysettha-stupa-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "attapeu/samakkhixay-market",
+      "province": "อัตตะปือ",
+      "name": "ตลาดเช้าสามัคคีไซ",
+      "key": "south-finish-samakkhixay-market",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+        "https://attapeutourism.wordpress.com/cultural-tourist-site/"
+      ],
+      "src": "assets/images/places-south-completion/south-finish-samakkhixay-market-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    },
+    {
+      "ref": "attapeu/dong-amphan",
+      "province": "อัตตะปือ",
+      "name": "ป่าสงวนดงอำพาน",
+      "key": "south-dong-amphan",
+      "kind": "generated",
+      "author": "AI-generated with ImageGen",
+      "license": "AI-generated illustration",
+      "licenseUrl": "",
+      "sourceUrls": [
+        "https://laoparks.la/parks/",
+        "https://en.wikipedia.org/wiki/Dong_Ampham_National_Biodiversity_Conservation_Area"
+      ],
+      "src": "assets/images/places-south/south-dong-amphan-960.webp",
+      "widths": [
+        480,
+        960,
+        1536
+      ]
+    }
+  ]
+}

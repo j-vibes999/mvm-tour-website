@@ -1,0 +1,46 @@
+[
+  {
+    "ref": "savannakhet/dong-natad",
+    "key": "south-dong-natad",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/central-provinces/savannakhet-province/",
+      "https://www.ecotourismlaos.com/index_php/eco-attractions/trekking-2/savannakhet/159-dong-na-tad-forest-treks-home-stays"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape travel website image, wide 3:2. Create a realistic and restrained editorial-style AI illustration grounded in the real location below. Believable ordinary daylight, true-to-life scale, natural muted greens, rich organic textures, no HDR, no fantasy, no dramatic fabricated peaks or oversized waterfalls, no text, no watermark, no logos. It will be visibly labelled AI illustration on the website, not presented as documentary evidence. Real location: Dong Natad / Dong Na Tad sacred forest near Savannakhet, Laos. Grounded features: lowland semi-evergreen old-growth forest, towering native broadleaf trees shading a simple earth walking trail, quiet flat terrain and Nong Lom lake. Depict a peaceful narrow footpath beside a shaded still greenish-brown forest lake, buttressed tree roots and modest undergrowth. Camera at human eye level from the forest edge. No temples, no mountains, no tourist structures, no wildlife staged in frame.",
+    "kind": "generated",
+    "reason": "Targeted Commons and web searches did not find a verified commercially reusable photo of this exact place."
+  },
+  {
+    "ref": "sekong/xe-xap",
+    "key": "south-xe-xap",
+    "referenceUrls": [
+      "https://www.ecotourismlaos.com/xexap",
+      "https://www.tourismlaos.org/southern-provinces/xekong-province/"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape travel website image, wide 3:2. Create a realistic and restrained editorial-style AI illustration grounded in the real location below. Believable ordinary daylight, true-to-life scale, natural muted greens, rich organic textures, no HDR, no fantasy, no dramatic fabricated peaks or oversized waterfalls, no text, no watermark, no logos. It will be visibly labelled AI illustration on the website, not presented as documentary evidence. Real location: Xe Xap National Protected Area, Sekong and Salavan provinces, southern Annamite Mountains of Laos. Grounded terrain is steep forested slopes and broad upland plateaus around 1400 metres, highest peak Dong Be 2066 metres, hill evergreen, semi-evergreen and patches of pine forest. Depict a natural elevated overlook across rounded densely forested Annamite ridges, a broad forest plateau in the midground, wisps of low morning mist in a valley, uneven broadleaf canopy with occasional conifers. Quiet credible humid upland landscape, soft diffuse morning light. No lake, no buildings, no limestone towers, no snow, no visible animals.",
+    "kind": "generated",
+    "reason": "Targeted Commons and web searches did not find a verified commercially reusable photo of this exact place."
+  },
+  {
+    "ref": "attapeu/dong-amphan",
+    "key": "south-dong-amphan",
+    "referenceUrls": [
+      "https://laoparks.la/parks/",
+      "https://en.wikipedia.org/wiki/Dong_Ampham_National_Biodiversity_Conservation_Area"
+    ],
+    "prompt": "Use case: photorealistic-natural. Asset type: landscape travel website image, wide 3:2. Create a realistic and restrained editorial-style AI illustration grounded in the real location below. Believable ordinary daylight, true-to-life scale, natural muted greens, rich organic textures, no HDR, no fantasy, no dramatic fabricated peaks or oversized waterfalls, no text, no watermark, no logos. It will be visibly labelled AI illustration on the website, not presented as documentary evidence. Real location: Dong Amphan / Dong Ampham National Protected Area, southeastern Laos along the Vietnam border. Grounded landscape is extensive rugged rounded hills and semi-evergreen and dry evergreen forest interspersed with mixed deciduous stands, tributaries of the Xe Kaman basin. Depict a wide natural view from the edge of an ordinary hill, low foreground shrubs, layered forest-covered undulating hills receding into light humid haze. Warm early morning side light with realistic irregular forest textures and soft sky. No jagged fantasy karst, no cliffs, no invented waterfalls or villages, no visible endangered animals. Distinct composition with forest canopy dominating lower two thirds and a wide distant valley.",
+    "kind": "generated",
+    "reason": "Targeted Commons and web searches did not find a verified commercially reusable photo of this exact place."
+  },
+  {
+    "ref": "attapeu/samakkhixay-market",
+    "key": "south-samakkhixay-market",
+    "kind": "generated",
+    "referenceUrls": [
+      "https://www.tourismlaos.org/southern-provinces/attapeu-province/",
+      "https://www.destination-asia.com/laos/"
+    ],
+    "reason": "No verified commercially reusable photo found after targeted Commons/web search. Use a clearly identified atmosphere illustration rather than inventing a recognizable building facade.",
+    "prompt": "Use case: photorealistic-natural. Asset: wide 3:2 travel website illustration. Real place: Samakkhixay morning market, Attapeu town, southern Laos, a traditional marketplace where diverse local communities trade produce, pottery, textiles and bamboo baskets. Create a restrained and believable early-morning market atmosphere illustration: a close-medium wide view down an ordinary shaded open-sided market aisle, simple wooden tables of leafy greens, herbs, bananas and bamboo baskets, one or two adult Lao vendors in ordinary everyday clothes calmly arranging vegetables in background, natural muted colors, worn cement floor and soft side daylight from outside. Crop closely enough that no unique recognizable building frontage is invented. No stereotypes, ceremonial dress, weapons, endangered wildlife, text, watermarks or dramatic cinematic lighting. Authentic small provincial market scale, real produce textures, documentary-style natural photography. This is visibly labelled AI illustration, not a photograph or a reconstruction of exact building layout."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "key": "vang-vieng",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed scenic photography for a premium Laos destination card. Create a high-resolution landscape photograph of Vang Vieng, Laos: dramatic green limestone karst peaks rising beyond vibrant rice farmland and a winding Nam Song river. Camera from a natural elevated overlook, river curves from the lower left into the middle distance, layered rugged limestone formations on the right and center, tiny authentic Lao rural roofs nestled in valley. Horizontal 16:10 composition. Natural late-afternoon sunlight with rich forest greens, luminous golden-green fields, subtle warm peach clouds against blue sky, cinematic yet believable editorial travel photography, lush detailed natural textures, depth and gentle atmospheric haze. Beautiful serene landscape, warmer green and gold palette. Frame with a little soft foliage along lower edge, wide valley composition distinct from a river-level sunrise hero. Entire image is photography only. ZERO TEXT, no letters, no words, no typography, no watermark, no logo, no UI, no graphic overlay, no border."
+    },
+    {
+      "key": "vientiane",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed scenic photography for a premium Laos destination card. Create a high-resolution travel photograph of the authentic Pha That Luang golden Buddhist stupa in Vientiane, Laos, with its distinctive tall central golden spire and ascending square terraces ringed with small gold stupas. Natural three-quarter frontal architectural view, monument centered and complete, warm gold surfaces detailed and realistic, subtle temple roofs to one side and tropical leaves framing upper corners, garden greenery near bottom. Horizontal 4:3 composition. Soft peach sunset sky, calm warm golden light, deep natural greens, sophisticated cinematic editorial photography matching a lush warm Laos travel site. Authentic Lao monument shape, human-scale architecture, believable surface texture and light. The monument should occupy most of the composition but its full tip must be inside the frame with sky above. Entire image is photography only. ZERO TEXT, no letters, no words, no typography, no watermark, no logo, no UI, no graphic overlay, no border."
+    },
+    {
+      "key": "champasak",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed scenic photography for a premium Laos destination card. Create a high-resolution landscape travel photograph of Tad Fane twin waterfalls in Champasak province, southern Laos. Two tall slender powerful white waterfalls plunge side by side down a steep immense rainforest gorge, the two waterfalls clearly visible near center, dark rocky cliff faces partly covered by lush deep-green vegetation. Wide landscape photograph from the opposite viewpoint, tropical foliage framing edges, mist at the depths of the gorge, rich moss and layered jungle canopy. Horizontal 16:10 composition. Warm soft afternoon sunlight catches foliage and upper edges, rich natural forest greens and golden highlights, cinematic atmospheric depth, realistic waterfall scale and natural water, detailed editorial travel photography. Match a premium warm green and gold Laos travel website. Entire image is photography only. ZERO TEXT, no letters, no words, no typography, no watermark, no logo, no UI, no graphic overlay, no border."
+    }
+  ]
+}

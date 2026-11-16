@@ -1,0 +1,208 @@
+/* Discovery and planning share the site's ivory, forest and quiet gold palette. */
+.season-section,.home-atlas{padding-block:clamp(36px,5vw,64px)}
+:is(.season-section,.home-atlas,.day-story) .section-head{gap:16px 28px;margin-bottom:24px}
+:is(.season-section,.home-atlas,.day-story) .h-section{margin-top:0;font-size:clamp(26px,2.8vw,36px)}
+:is(.season-section,.home-atlas,.day-story) .lead{font-size:16px;line-height:1.75;max-width:68ch}
+.travel-note{max-width:78ch;color:var(--muted);font-size:14px;line-height:1.75}
+
+/* Month choices remain available while the photographs scroll horizontally. */
+.month-options,.atlas-regions{display:flex;flex-wrap:wrap;gap:8px}
+.month-options{margin-bottom:16px}
+.month-options button,.atlas-regions button{display:inline-flex;align-items:center;justify-content:center;min-width:52px;min-height:44px;padding:8px 15px;border:1px solid var(--line-2);border-radius:999px;background:var(--paper);color:var(--green);font-size:15px;font-weight:500;line-height:1.5;touch-action:manipulation;transition:background .18s,border-color .18s,color .18s}
+.month-options button[aria-pressed=true],.atlas-regions button[aria-pressed=true]{border-color:var(--green);background:var(--green);color:var(--paper)}
+.season-status{margin:0 0 12px;color:var(--muted);font-size:14px;line-height:1.6}
+.season-grid{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,calc((100% - 32px)/3));gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scroll-padding-inline:2px;padding:3px 2px 14px;scrollbar-width:thin;scrollbar-color:var(--line-2) transparent}
+.season-card{display:grid;grid-template-columns:88px minmax(0,1fr) 18px;align-items:center;gap:12px;min-width:0;min-height:140px;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--paper);scroll-snap-align:start;transition:border-color .18s,background .18s}
+.season-photo{position:relative;align-self:stretch;min-height:112px;overflow:hidden;border-radius:7px;background:var(--land-dim)}
+.season-photo>img,.season-photo>.visual-fallback{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.season-card>div:not(.season-photo){min-width:0}
+.season-card .meta{display:block;margin-bottom:4px;color:var(--muted);font-size:12.5px;line-height:1.6}
+.season-card h3{font-size:19px;line-height:1.45;overflow-wrap:anywhere}
+.season-card p{margin-top:6px;color:var(--text);font-size:13.5px;line-height:1.65}
+.season-card>svg{width:18px;height:18px;color:var(--gold-text)}
+.season-section>.travel-note{margin-top:14px}
+.season-empty{padding:24px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+.season-empty h3{font-size:23px;line-height:1.4}
+.season-empty p{max-width:68ch;margin-top:10px;color:var(--text);font-size:16px;line-height:1.75}
+.season-empty .link-arrow{margin-top:10px}
+
+/* A full photograph and one stop at a time keep the day story easy to follow. */
+.day-story{padding-block:clamp(36px,5vw,64px)}
+.day-story-frame{display:grid;grid-template-columns:minmax(0,1.27fr) minmax(0,1fr);overflow:hidden;border:1px solid #dce3d6;border-radius:16px;background:#edf0e5}
+.day-story-photo{position:relative;display:block;min-width:0;min-height:320px;overflow:hidden;background:var(--land-dim)}
+.day-story-photo>img,.day-story-photo>.visual-fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.day-story-copy{min-width:0;align-self:center;padding:clamp(24px,3vw,38px)}
+.day-story-copy .eyebrow{font-size:14px}
+.day-story-copy h3{margin-top:12px;font-size:clamp(25px,2.4vw,32px);line-height:1.4;text-wrap:balance}
+.day-story-copy>p:not(.eyebrow){margin-top:14px;color:var(--text);font-size:16px;line-height:1.8}
+.day-story-copy .day-best{display:flex;align-items:flex-start;gap:9px;font-size:14px;line-height:1.75}
+.day-best>svg{flex:none;width:19px;height:19px;margin-top:3px;color:var(--gold-text)}
+.day-story-copy .link-arrow{margin-top:12px;font-size:15px}
+.day-play{flex:none;min-width:46px;min-height:46px;touch-action:manipulation}
+.day-play[aria-pressed=true]{background:var(--green);border-color:var(--green);color:var(--paper)}
+.day-periods{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.day-periods button{display:inline-flex;flex:1 1 140px;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:9px 14px;border:1px solid var(--line-2);border-radius:8px;background:var(--paper);color:var(--green);font-size:15px;line-height:1.5;touch-action:manipulation;transition:background .18s,border-color .18s,color .18s}
+.day-periods button>span{color:var(--gold-text);font-size:12px;font-variant-numeric:tabular-nums}
+.day-periods button[aria-pressed=true]{border-color:var(--green);background:var(--green);color:var(--paper);font-weight:600}
+.day-periods button[aria-pressed=true]>span{color:var(--gold-light)}
+.day-story-footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;margin-top:16px}
+.day-story-footer .travel-note{flex:1 1 420px;max-width:68ch}
+.day-story-footer .link-arrow{flex:none;font-size:15px}
+
+/* Region controls sit above an unobstructed map and its adjacent preview. */
+.atlas-regions{margin-bottom:20px}
+.home-atlas .map-wrap[data-atlas]{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(24px,5vw,70px);padding:24px;border:1px solid var(--line);border-radius:16px;background:var(--paper)}
+.home-atlas .map-wrap[data-atlas]>.laos-map{max-height:420px}
+.home-atlas .map-preview{width:100%;min-width:0;background:var(--cream)}
+.home-atlas .map-preview-link{min-height:174px;grid-template-columns:120px minmax(0,1fr)}
+.home-atlas .map-preview-media img{min-height:174px}
+
+/* Saved places remain compact, ordered rows with explicit keyboard controls. */
+.saved-planning{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,.45fr);align-items:start;gap:32px}
+.saved-planning>section{min-width:0}
+.saved-planning>section>h2{font-size:clamp(24px,2.3vw,30px);line-height:1.4}
+.saved-planning>section>.travel-note{margin-top:10px}
+.saved-list{min-width:0;list-style:none;padding:0;margin:18px 0 0;border-top:1px solid var(--line-2)}
+.saved-row{display:grid;grid-template-columns:24px 76px minmax(0,1fr) auto;align-items:center;gap:14px;padding:16px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;overflow:visible;background:var(--cream)}
+.saved-list .saved-row:is(:hover,:focus-within,:active){transform:none;box-shadow:none;border-color:var(--line)}
+.saved-row[draggable=true]{cursor:grab}
+.saved-row[draggable=true]:active{cursor:grabbing}
+.saved-row.is-dragging{opacity:.55}
+.saved-row.is-drag-over{border-bottom-color:var(--gold);background:#f1edde}
+.saved-order-number{color:var(--gold-text);font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;text-align:center}
+.saved-place-photo{position:relative;display:block;flex:none;width:76px;height:88px;overflow:hidden;border-radius:8px;background:var(--land-dim);object-fit:cover}
+.saved-place-photo>img,.saved-place-photo>.visual-fallback{width:100%;height:100%;object-fit:cover}
+.saved-place-copy{min-width:0}
+.saved-place-copy h2,.saved-place-copy h3,.saved-place-copy>b,.saved-place-copy>a{font-family:var(--serif);font-size:20px;font-weight:600;line-height:1.45;color:var(--green)}
+.saved-place-copy p,.saved-place-copy .meta{margin-top:5px;color:var(--muted);font-size:14px;line-height:1.65}
+.saved-place-copy .save-place.is-saved{color:#85421f;background:#f6e3cf}
+.saved-place-copy .save-place{margin-top:8px;min-height:44px;padding:7px 10px;font-size:13px}
+.saved-order-controls{display:flex;flex-direction:column;gap:5px}
+.saved-order-controls button{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-height:44px;padding:8px;border:1px solid var(--line-2);border-radius:8px;background:var(--paper);color:var(--green);touch-action:manipulation;transition:background .18s,border-color .18s}
+.saved-order-controls button svg{width:18px;height:18px}
+.saved-order-controls [data-direction="-1"] svg{rotate:-90deg}
+.saved-order-controls [data-direction="1"] svg{rotate:90deg}
+.saved-order-controls button:disabled{opacity:.4;cursor:default}
+.saved-drag{display:flex;align-items:center;justify-content:center;width:44px;height:28px;color:var(--muted);font-size:24px;line-height:1;cursor:grab;user-select:none}
+.saved-drag:active{cursor:grabbing}
+.saved-plan-map{position:sticky;top:calc(var(--header) + 20px);min-width:0;padding:22px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+.saved-plan-map h2,.saved-plan-map h3{font-size:23px;line-height:1.4}
+.saved-plan-map>.laos-map,.saved-plan-map>svg{display:block;width:100%;max-height:270px;margin:18px auto;overflow:visible}
+.saved-map-links{list-style:none;display:grid;gap:4px;margin:14px 0 0;padding:0}
+.saved-map-links a{display:flex;align-items:center;gap:10px;min-height:40px;padding-block:6px;color:var(--green);font-size:14px;line-height:1.6;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.saved-map-links b,.saved-map-links .saved-order-number{color:var(--gold-text);font-family:var(--sans);font-size:13px}
+.saved-map-links h3{margin-bottom:6px;font-size:18px;line-height:1.5}
+.saved-map-links svg{width:18px;height:18px}
+
+/* Itinerary routes use small ordered chips; each day opens into a modest photo. */
+.pkg-body.pkg-with-sidebar{display:grid;grid-template-columns:minmax(0,1fr) 320px;align-items:start;gap:32px;padding-top:24px}
+.pkg-with-sidebar>.pkg-main{width:100%;min-width:0;max-width:none;margin:0}
+.pkg-with-sidebar>.price-panel{position:sticky;top:calc(var(--header) + 20px);align-self:start;width:100%;height:fit-content;min-width:0;padding:24px;border-radius:12px}
+.pkg-with-sidebar .pkg-main>.pkg-hero{position:relative;width:100%;height:auto;min-height:0;max-height:320px;aspect-ratio:16/8;overflow:hidden;margin-bottom:28px;border-radius:12px}
+.pkg-with-sidebar .pkg-hero img{width:100%;height:100%;object-fit:cover}
+.pkg-with-sidebar .pkg-hero img.preserve-photo{object-fit:contain}
+.pkg-with-sidebar>.price-panel .price-label{font-size:15px;line-height:1.6}
+.pkg-with-sidebar>.price-panel .price{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px;margin:3px 0 12px;font-variant-numeric:tabular-nums}
+.pkg-with-sidebar>.price-panel .price strong{font-size:38px;line-height:1.3}
+.pkg-with-sidebar>.price-panel .price small{font-size:15px}
+.pkg-with-sidebar>.price-panel .pkg-price-basis{font-size:16px;line-height:1.75}
+.pkg-with-sidebar>.price-panel>.btn{min-height:48px;margin-top:14px;font-size:16px}
+.pkg-with-sidebar>.price-panel>.btn-outline{width:auto;min-height:44px;margin-top:4px;padding:6px 0;border:0;background:transparent;color:var(--green);font-size:15px;text-decoration:underline;text-underline-offset:4px}
+.program-overview{margin-bottom:28px;padding:20px 22px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+.program-overview h2,.program-overview h3{font-size:23px;line-height:1.4}
+.program-overview p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.75}
+.program-overview ol{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 0;padding:0;list-style:none}
+.program-overview li{min-width:0;max-width:100%;color:var(--gold-text);font-size:14px}
+.program-overview li>a,.program-overview li>span,.program-overview li>button{display:inline-flex;align-items:center;gap:9px;min-height:44px;max-width:100%;padding:8px 12px;border:1px solid var(--line);border-radius:7px;background:var(--cream);color:var(--green);font-size:14px;line-height:1.6;text-align:left;touch-action:manipulation}
+.program-overview button>span{flex:none;color:var(--gold-text);font-size:13px}
+.program-overview button>strong{min-width:0;font-weight:500;overflow-wrap:anywhere}
+.program-overview button>svg{width:17px;height:17px;color:var(--gold-text)}
+.program-overview li>a{text-decoration:underline;text-underline-offset:4px}
+.day-photo{position:relative;display:block;width:min(100%,410px);aspect-ratio:16/9;max-height:230px;overflow:hidden;margin:14px 0 18px;border-radius:9px;background:var(--land-dim)}
+.day-photo>img,.day-photo>.visual-fallback{width:100%;height:100%;object-fit:cover}
+
+/* Inquiry images clarify the chosen place without competing with the fields. */
+.inquiry-photo-summary{position:relative;display:flex;align-items:center;gap:15px;min-width:0;margin:16px 0 22px;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--paper)}
+.inquiry-photo-summary img{flex:none;width:88px;height:76px;border-radius:7px;object-fit:cover}
+.inquiry-photo-summary>div{min-width:0;flex:1}
+.inquiry-photo-summary h2,.inquiry-photo-summary h3{margin:0;font-size:20px;line-height:1.45}
+.inquiry-photo-summary p{margin-top:6px;color:var(--muted);font-size:14px;line-height:1.7;overflow-wrap:anywhere}
+.inquiry-photo-summary>p{display:flex;flex:1;align-items:flex-start;gap:8px;min-width:0;margin:0}
+.inquiry-photo-summary>p>svg{width:18px;height:18px;margin-top:3px;color:var(--gold-text)}
+.inquiry-photo-summary>.generated-badge{left:17px;bottom:17px;max-width:82px;padding:3px 5px;font-size:10px;line-height:1.4;white-space:normal}
+.inquiry-group{min-inline-size:0;margin:0 0 26px;padding:0;border:0}
+.inquiry-group legend{width:100%;margin-bottom:16px;padding:0;font-family:var(--serif);font-size:23px;font-weight:600;line-height:1.45;color:var(--green)}
+
+@media(hover:hover) and (pointer:fine){
+  .season-card:hover{border-color:var(--gold);background:#fffdf7}
+  .month-options button:hover:not([aria-pressed=true]),.atlas-regions button:hover:not([aria-pressed=true]),.day-periods button:hover:not([aria-pressed=true]),.saved-order-controls button:hover:not(:disabled){border-color:var(--green);background:#e9eddf}
+  .saved-place-copy a:hover{text-decoration:underline;text-underline-offset:4px}
+}
+@media(max-width:1000px){
+  .pkg-body.pkg-with-sidebar{grid-template-columns:minmax(0,1fr);gap:24px}
+  .pkg-with-sidebar>.price-panel{position:static;order:-1;padding:22px}
+  .pkg-with-sidebar>.price-panel>.btn-primary{width:auto;min-width:220px}
+  .pkg-with-sidebar>.price-panel>.btn-outline{margin-left:18px}
+  .saved-planning{grid-template-columns:minmax(0,1fr) 260px;gap:24px}
+  .saved-row{grid-template-columns:20px 64px minmax(0,1fr) auto;gap:10px}
+  .saved-place-photo{width:64px;height:80px}
+  .saved-place-copy h2,.saved-place-copy h3,.saved-place-copy>b,.saved-place-copy>a{font-size:18px}
+}
+@media(max-width:800px){
+  .day-story-frame{grid-template-columns:minmax(0,1fr)}
+  .day-story-photo{min-height:0;aspect-ratio:16/9;max-height:350px}
+  .day-story-copy{padding:24px}
+  .day-periods button{flex:1 1 110px}
+  .home-atlas .map-wrap[data-atlas]{grid-template-columns:minmax(0,1fr);gap:22px;padding:20px}
+  .home-atlas .map-wrap[data-atlas]>.laos-map{max-height:350px}
+  .home-atlas .map-preview-link{min-height:152px;grid-template-columns:104px minmax(0,1fr)}
+  .home-atlas .map-preview-media img{min-height:152px}
+  .saved-planning{grid-template-columns:minmax(0,1fr);gap:26px}
+  .saved-plan-map{position:static}
+  .saved-plan-map>.laos-map,.saved-plan-map>svg{max-height:240px}
+}
+@media(max-width:480px){
+  .month-options{gap:7px}
+  .month-options button{flex:1 0 calc((100% - 35px)/6);min-width:0;padding-inline:5px;font-size:14px}
+  .season-grid{grid-auto-columns:minmax(250px,90%);gap:12px}
+  .season-card{grid-template-columns:72px minmax(0,1fr);gap:12px;padding:12px}
+  .season-card>svg{display:none}
+  .season-photo{min-height:108px}
+  .season-empty{padding:20px}
+  .season-empty h3{font-size:21px}
+  .day-story-frame{border-radius:12px}
+  .day-story-copy{padding:22px 20px}
+  .day-story-copy h3{font-size:25px}
+  .day-periods{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;padding:3px 2px 10px;scrollbar-width:thin}
+  .day-periods button{flex:0 0 auto;min-height:46px;padding-inline:13px;white-space:nowrap;font-size:14px}
+  .day-story-footer{margin-top:8px}
+  .day-story-footer .link-arrow{white-space:normal}
+  .atlas-regions{gap:7px}
+  .atlas-regions button{flex:1 0 auto;padding-inline:12px;font-size:14px}
+  .home-atlas .map-wrap[data-atlas]{padding:14px}
+  .saved-row{grid-template-columns:18px 58px minmax(0,1fr) 44px;gap:8px;padding-block:14px}
+  .saved-place-photo{width:58px;height:76px}
+  .saved-place-copy h2,.saved-place-copy h3,.saved-place-copy>b,.saved-place-copy>a{font-size:17px}
+  .saved-place-copy p,.saved-place-copy .meta{font-size:12.5px}
+  .saved-place-copy .save-place{gap:5px;padding:7px;font-size:12.5px;line-height:1.5}
+  .saved-place-copy .save-place>svg{width:16px;height:16px}
+  .saved-plan-map{padding:20px}
+  .program-overview{padding:18px}
+  .pkg-body.pkg-with-sidebar{padding-top:18px}
+  .pkg-with-sidebar>.price-panel{padding:20px}
+  .pkg-with-sidebar>.price-panel>.btn-primary{width:100%;min-width:0}
+  .pkg-with-sidebar>.price-panel>.btn-outline{margin-left:0}
+  .pkg-with-sidebar .pkg-main>.pkg-hero{aspect-ratio:16/9;margin-bottom:22px}
+  .program-overview ol{gap:8px}
+  .program-overview li>a,.program-overview li>span,.program-overview li>button{padding-inline:9px;font-size:13px}
+  .inquiry-photo-summary{gap:12px;padding:12px}
+  .inquiry-photo-summary img{width:68px;height:76px}
+  .inquiry-photo-summary>.generated-badge{left:15px;bottom:15px;max-width:62px}
+  .inquiry-photo-summary h2,.inquiry-photo-summary h3{font-size:18px}
+  .inquiry-photo-summary p{font-size:13px}
+  .inquiry-group legend{font-size:22px}
+}
+@media(prefers-reduced-motion:reduce){
+  .month-options button,.atlas-regions button,.season-card,.day-periods button,.saved-order-controls button{transition:none}
+  .season-grid{scroll-behavior:auto;scroll-snap-type:none}
+}

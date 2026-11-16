@@ -1,0 +1,146 @@
+/* Features added on 21 October 2026: first-paint shells, warm photo treatment, the living hero,
+   the about gallery and the data-ready welcome note. Motion for all of these lives in motion.css. */
+:root{
+  --saffron:#d0782f;--saffron-deep:#a8561b;--saffron-soft:#f6e3cf;--ember:#f2a65e;
+  --warm-shadow:42,23,10;
+}
+/* headings break into even lines instead of leaving one word alone */
+:where(h1,h2,h3){text-wrap:balance}
+
+/* ── First paint: the static shell matches the app; the plain fallback is for no-JavaScript visitors ── */
+html.js .seo-fallback{display:none}
+html:not(.js) [data-js-only],html:not(.js) .js-shell{display:none!important}
+html.js [data-nojs-only]{display:none!important}
+.js-shell{display:contents}
+
+/* ── Photo placeholders: each photo's own average colour fills its frame while it loads ── */
+img[style*="--tone"]{background-color:var(--tone)}
+
+/* ── Header: Thai and English keep the full navigation on small laptops ── */
+.btn-label{white-space:nowrap}
+@media(min-width:981px) and (max-width:1180px){
+  html:not(:lang(lo)):not(:lang(zh)) .header-inner{gap:12px 16px}
+  html:not(:lang(lo)):not(:lang(zh)) .desktop-nav{gap:4px 18px;font-size:14px}
+  html:not(:lang(lo)):not(:lang(zh)) .header-actions{gap:8px}
+}
+@media(min-width:981px) and (max-width:1080px){
+  html:not(:lang(lo)):not(:lang(zh)) .desktop-nav{gap:4px 15px}
+  html:not(:lang(lo)):not(:lang(zh)) .header-actions .btn{width:46px;padding:0}
+  html:not(:lang(lo)):not(:lang(zh)) .header-actions .btn .btn-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+  html:not(:lang(lo)):not(:lang(zh)) .brand svg{width:46px;height:31px}
+  html:not(:lang(lo)):not(:lang(zh)) .brand-name b{font-size:20px}
+}
+
+/* ── Quick-action bar: the saved count appears only when there is something saved ── */
+.mobile-bar .btn{min-width:0;gap:7px}
+@media (max-width:400px){.mobile-bar .btn{flex:1 1 auto;padding:0 10px}.mobile-bar .btn-primary{flex:3 1 auto}}
+.bar-label{min-width:0;line-height:1.25;text-align:center;text-wrap:balance}
+.bar-count{flex:none;display:inline-grid;place-content:center;min-width:22px;height:22px;margin-left:1px;padding:0 6px;border-radius:999px;background:var(--saffron);color:#fff;font-size:12.5px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.bar-count[hidden]{display:none}
+.saved-count{background:var(--saffron)}
+
+/* ── Toasts stay clear of the viewer's place strip ── */
+html.viewer-open .toast{bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+@media(max-width:899px){html.viewer-open .toast{left:50%;bottom:calc(78px + env(safe-area-inset-bottom,0px));max-width:calc(100vw - 32px)}}
+
+/* ── Living hero: warm light instead of a cold green veil ── */
+.hero{background:#3a2a1d}
+.hero .hero-img{transform-origin:var(--focus,60% 50%);will-change:transform}
+.hero::before{background:
+  radial-gradient(120% 90% at 85% 0%,rgba(255,186,120,.2),rgba(255,186,120,0) 55%),
+  linear-gradient(90deg,rgba(var(--warm-shadow),.7) 0%,rgba(var(--warm-shadow),.34) 44%,rgba(var(--warm-shadow),.04) 76%),
+  linear-gradient(0deg,rgba(32,18,8,.74) 0%,rgba(32,18,8,0) 44%)}
+.hero-hello{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-bottom:14px;font-size:15px;line-height:1.6;color:#f6dcb1}
+.hero-hello [lang=lo]{font-family:var(--lao);font-size:19px;font-weight:500;color:#ffe3b8}
+.hero-hello>span[aria-hidden]{color:rgba(246,220,177,.6)}
+.hero .btn-light svg{color:var(--saffron)}
+.hero .slide-btn{padding-bottom:11px}
+.hero .slide-btn[aria-pressed=true]{padding-bottom:11px;border-bottom-color:rgba(243,201,139,.35)}
+.slide-progress{position:absolute;left:0;right:0;bottom:-2px;height:2px;border-radius:2px;background:#f3c98b;transform:scaleX(0);transform-origin:left center;pointer-events:none}
+.hero .slide-btn[aria-pressed=false] .slide-progress{visibility:hidden}
+.hero[data-hero-playing=false] .slide-btn[aria-pressed=true] .slide-progress{background:#f3c98b}
+@media(prefers-reduced-motion:reduce){.hero .slide-btn[aria-pressed=true]{border-bottom-color:var(--gold-light)}.slide-progress{display:none}}
+@media(max-width:640px){
+  .hero::before{background:
+    radial-gradient(120% 70% at 90% 0%,rgba(255,186,120,.18),rgba(255,186,120,0) 55%),
+    linear-gradient(180deg,rgba(var(--warm-shadow),.64) 0%,rgba(var(--warm-shadow),.32) 46%,rgba(32,18,8,.78) 100%)}
+  .hero-hello{margin-bottom:10px;font-size:13.5px}
+  .hero-hello [lang=lo]{font-size:17px}
+}
+
+/* ── Province hero: lighter, warmer, and still readable ── */
+.p-hero{background:#3a2a1d}
+.p-hero.has-photo::after{background:
+  linear-gradient(0deg,rgba(32,18,8,.82) 0%,rgba(32,18,8,.42) 42%,rgba(32,18,8,.1) 78%,rgba(32,18,8,.22) 100%),
+  radial-gradient(90% 80% at 85% 10%,rgba(255,186,120,.16),rgba(255,186,120,0) 60%)}
+.p-hero.has-photo .breadcrumb{color:#f3ece0}
+.p-hero .region-chip{background:rgba(32,18,8,.28);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+
+/* ── About: everyday Laos first ── */
+.about-gallery{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:repeat(2,minmax(0,1fr));gap:14px;height:clamp(320px,38vw,480px);margin-bottom:clamp(36px,5vw,64px)}
+.about-shot{position:relative;display:block;overflow:hidden;border-radius:16px;background:#3a2a1d;isolation:isolate}
+.about-shot-main{grid-row:span 2}
+.about-shot>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.about-shot::after{content:'';position:absolute;inset:0;z-index:0;background:linear-gradient(0deg,rgba(32,18,8,.62) 0%,rgba(32,18,8,0) 46%);pointer-events:none}
+.about-shot-label{position:absolute;left:14px;bottom:12px;z-index:1;display:inline-flex;align-items:center;gap:7px;color:#fff;font-size:15px;font-weight:600;line-height:1.4;text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.about-shot-label svg{width:17px;height:17px;color:var(--gold-light)}
+@media(max-width:640px){
+  .about-gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto auto;height:auto}
+  .about-shot-main{grid-column:1/-1;grid-row:auto;aspect-ratio:16/10}
+  .about-shot:not(.about-shot-main){aspect-ratio:1}
+  .about-shot-label{font-size:13.5px}
+}
+
+/* ── A personal welcome, shown only when the owner adds one ── */
+.welcome-note{display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px 28px;align-items:start;margin-bottom:56px;padding:clamp(22px,3vw,34px);border-radius:20px;background:linear-gradient(135deg,#fbf2e6,#f6ead6);border:1px solid #ecdcc0}
+.welcome-portrait{width:clamp(84px,10vw,128px);aspect-ratio:1;overflow:hidden;border-radius:50%;background:var(--saffron-soft);display:grid;place-items:center}
+.welcome-portrait img{width:100%;height:100%;object-fit:cover}
+.welcome-mark{color:var(--saffron)}
+.welcome-mark svg{width:40px;height:40px}
+.welcome-hello{font-family:var(--lao);font-size:18px;color:var(--saffron-deep)}
+.welcome-note h2{margin-top:2px;font-size:clamp(24px,2.4vw,30px)}
+.welcome-note blockquote{margin-top:12px;max-width:62ch;font-size:17px;line-height:1.85;color:var(--text)}
+.welcome-sign{margin-top:14px;font-size:15px;color:var(--muted)}
+.welcome-sign b{color:var(--green)}
+@media(max-width:640px){.welcome-note{grid-template-columns:1fr}}
+
+/* ── Saved places glow saffron: the heart, its button and the header count ── */
+.save-place:is(.is-saved,[aria-pressed=true]){background:var(--saffron-soft);border-color:var(--saffron);color:var(--saffron-deep)}
+.save-place:is(.is-saved,[aria-pressed=true])>svg{fill:var(--saffron);color:var(--saffron)}
+.v-quick-actions .save-place:is(.is-saved,[aria-pressed=true])>svg{fill:currentColor;color:inherit}
+.saved-link:has(.saved-count:not([hidden]))>svg{fill:var(--saffron);color:var(--saffron)}
+@media (hover:hover){.save-place:is(.is-saved,[aria-pressed=true]):hover{background:#f2d7bb;border-color:var(--saffron-deep)}}
+
+/* ── A tip from the team, inside the place viewer (only when content.js has one) ── */
+.v-tip{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin:14px 0 4px;padding:14px 16px;border-radius:14px;background:rgba(244,180,90,.12);border:1px solid rgba(244,180,90,.35);color:inherit}
+.v-tip>svg{width:22px;height:22px;margin-top:2px;color:var(--gold-light)}
+.v-tip b{display:block;font-size:13.5px;letter-spacing:.02em;color:var(--gold-light)}
+.v-tip p{margin:3px 0 0;font-size:15px;line-height:1.6}
+
+/* ── LINE button with a once-per-visit greeting (only when the real LINE account is set) ── */
+.chat-fab{position:fixed;right:24px;bottom:24px;z-index:46;display:flex;align-items:flex-end;gap:12px;pointer-events:none}
+.chat-fab>*{pointer-events:auto}
+.chat-fab[hidden],.chat-hello[hidden]{display:none}
+.chat-fab-btn{display:inline-flex;align-items:center;gap:8px;min-height:54px;padding:0 20px 0 16px;border-radius:999px;background:#037f37;color:#fff;font-size:15.5px;font-weight:700;letter-spacing:.02em;box-shadow:0 16px 30px -14px rgba(4,80,36,.7),inset 0 0 0 2px rgba(6,199,85,.55);transition:transform .3s var(--ease-river,ease),box-shadow .3s ease}
+.chat-fab-btn svg{width:23px;height:23px}
+.chat-fab-btn:focus-visible{outline:3px solid var(--gold-text);outline-offset:3px}
+@media (hover:hover) and (pointer:fine){.chat-fab-btn:hover{transform:translateY(-3px);background:#026c2f;box-shadow:0 20px 34px -14px rgba(4,80,36,.75),inset 0 0 0 2px rgba(6,199,85,.55)}}
+.chat-hello{position:relative;display:flex;align-items:flex-start;gap:4px;max-width:290px;padding:14px 8px 14px 16px;border:1px solid var(--line);border-radius:18px 18px 6px 18px;background:var(--paper);box-shadow:0 22px 44px -22px rgba(20,30,20,.5);color:var(--ink);font-size:14.5px;line-height:1.55}
+.chat-hello p{margin:0}
+.chat-hello b{display:block;margin-bottom:2px;font-family:var(--serif);font-size:17px;color:var(--green)}
+.chat-hello-close{flex:none;display:grid;place-items:center;width:34px;height:34px;margin:-6px 0 0;padding:0;border:0;border-radius:50%;background:transparent;color:var(--muted)}
+.chat-hello-close svg{width:16px;height:16px}
+@media (hover:hover){.chat-hello-close:hover{background:var(--chip);color:var(--green)}}
+html.has-chat-fab .back-to-top{bottom:94px}
+html:is(.viewer-open,.menu-open) .chat-fab{display:none}
+@media (max-width:980px){
+  .chat-fab{right:16px;bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+  html.has-chat-fab .back-to-top{bottom:calc(156px + env(safe-area-inset-bottom,0px))}
+}
+@media (max-width:640px){
+  .chat-fab-btn{width:52px;min-height:52px;padding:0;justify-content:center}
+  .chat-fab-btn span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .chat-hello{max-width:min(290px,calc(100vw - 110px))}
+}
+@media print{.chat-fab{display:none}}
+@media (prefers-reduced-motion:reduce){.chat-fab-btn{transition:none}}
